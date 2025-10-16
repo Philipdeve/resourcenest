@@ -8,14 +8,12 @@ import { Search } from "lucide-react";
 import { toast } from "sonner";
 import { supabase } from "@/integrations/supabase/client";
 import scienceData from "../../data/science.json";
-import engData from "../../data/engineering.json";
-import erpData from "../../data/entrepreneurship.json";
-import hiData from "../../data/humanities.json";
-import mathsData from "../../data/maths.json";
-import soscData from "../../data/social-sciences.json";
 import techData from "../../data/technology.json";
+import engData from "../../data/engineering.json";
+import mathsData from "../../data/maths.json";
 
-const CATEGORIES = ["All", "Mathematics", "Science", "Technology", "Engineering", "Entrepreneurship", "Humanities", "Social Sciences"];
+
+const CATEGORIES = ["All", "Mathematics", "Science", "Technology", "Engineering"];
 
 interface Resource {
   name: string;
@@ -34,10 +32,7 @@ const Resources = () => {
   const allData = [
     ...scienceData,
     ...engData, 
-    ...erpData,
-    ...hiData,
     ...mathsData,
-    ...soscData,
     ...techData,
   ];
 

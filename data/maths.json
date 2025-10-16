@@ -86,5 +86,37 @@
     "type": "article",
     "category": "mathematics",
     "tags": ["modeling", "applications", "problem solving"]
+  },
+  {
+    "name": "Linear Algebra Guide",
+    "description": "Vectors, matrices, and linear transformations",
+    "link": "https://www.math.ucdavis.edu/~linear/linear-guest.pdf",
+    "type": "pdf",
+    "category": "mathematics",
+    "tags": ["linear algebra", "vectors", "matrices"]
+  },
+  {
+    "name": "Statistics and Probability",
+    "description": "Data analysis and statistical methods",
+    "link": "https://www.stat.berkeley.edu/~stark/SticiGui/Text/",
+    "type": "pdf",
+    "category": "mathematics",
+    "tags": ["statistics", "probability", "data analysis"]
+  },
+  {
+    "name": "Discrete Mathematics",
+    "description": "Sets, logic, graphs, and combinatorial mathematics",
+    "link": "https://www.cs.yale.edu/homes/aspnes/classes/202/notes.pdf",
+    "type": "pdf",
+    "category": "mathematics",
+    "tags": ["discrete", "logic", "combinatorics"]
+  },
+  {
+    "name": "Differential Equations",
+    "description": "Solving ordinary and partial differential equations",
+    "link": "https://www.math.utah.edu/~gustafso/2250systems-de.pdf",
+    "type": "pdf",
+    "category": "mathematics",
+    "tags": ["differential equations", "modeling", "advanced"]
   }
 ]

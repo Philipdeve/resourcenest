@@ -13,7 +13,7 @@ const Index = () => {
         <div className="absolute inset-0 bg-[var(--gradient-hero)] -z-10" />
         <div className="container mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6">
-            Your Gateway to <span className="gradient-text">STEM Excellence</span>
+            Your Gateway to <span className="gradient-text">Academic Excellence</span>
           </h1>
           <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
             Access curated educational resources in Science, Technology, Engineering, and Mathematics. 
@@ -104,7 +104,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="border-t py-8 px-4">
         <div className="container mx-auto text-center text-muted-foreground">
-          <p>&copy; 2025 Student Hub. All rights reserved.</p>
+          <p>&copy; 2025 ResourceNest. All rights reserved.</p>
         </div>
       </footer>
     </div>

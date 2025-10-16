@@ -6,12 +6,9 @@ import { BookmarkIcon } from "lucide-react";
 import { supabase } from "@/integrations/supabase/client";
 import { toast } from "sonner";
 import scienceData from "../../data/science.json";
-import engData from "../../data/engineering.json";
-import erpData from "../../data/entrepreneurship.json";
-import hiData from "../../data/humanities.json";
-import mathsData from "../../data/maths.json";
-import soscData from "../../data/social-sciences.json";
 import techData from "../../data/technology.json";
+import engData from "../../data/engineering.json";
+import mathsData from "../../data/maths.json";
 
 interface Resource {
   name: string;
@@ -31,10 +28,7 @@ const Bookmarks = () => {
    const allData = [
       ...scienceData,
       ...engData, 
-      ...erpData,
-      ...hiData,
       ...mathsData,
-      ...soscData,
       ...techData,
     ];
 

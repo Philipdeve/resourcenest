@@ -1,11 +1,18 @@
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
-import { BookmarkIcon, FileText, Share2, Video } from "lucide-react";
+import { BookmarkIcon, FileText, Share2, Video, Newspaper } from "lucide-react";
 import { useState } from "react";
 
 interface ResourceCardProps {
-   name: string;
+  name: string;
   description: string;
   link: string;
   type: string;
@@ -17,7 +24,6 @@ interface ResourceCardProps {
 }
 
 const ResourceCard = ({
-  
   name,
   description,
   link,
@@ -41,10 +47,23 @@ const ResourceCard = ({
         <div className="flex items-start justify-between gap-2">
           <div className="flex-1">
             <CardTitle className="text-lg line-clamp-2">{name}</CardTitle>
-            <CardDescription className="mt-2 line-clamp-2">{description}</CardDescription>
+            <CardDescription className="mt-2 line-clamp-2">
+              {description}
+            </CardDescription>
           </div>
+          {/* <Badge variant="secondary" className="flex items-center gap-1">
+            {type === "pdf" || "article" ? <FileText className="h-3 w-3" /> : <Video className="h-3 w-3" />}
+            {type.toUpperCase()}
+          </Badge> */}
+
           <Badge variant="secondary" className="flex items-center gap-1">
-            {type === "pdf" ? <FileText className="h-3 w-3" /> : <Video className="h-3 w-3" />}
+            {type === "pdf" ? (
+              <FileText className="h-3 w-3" />
+            ) : type === "article" ? (
+              <Newspaper className="h-3 w-3" />
+            ) : (
+              <Video className="h-3 w-3" />
+            )}
             {type.toUpperCase()}
           </Badge>
         </div>
@@ -63,7 +82,9 @@ const ResourceCard = ({
           size="icon"
           onClick={handleBookmark}
         >
-          <BookmarkIcon className={`h-4 w-4 ${bookmarked ? "fill-current" : ""}`} />
+          <BookmarkIcon
+            className={`h-4 w-4 ${bookmarked ? "fill-current" : ""}`}
+          />
         </Button>
         <Button variant="outline" size="icon" onClick={() => onShare?.(name)}>
           <Share2 className="h-4 w-4" />
