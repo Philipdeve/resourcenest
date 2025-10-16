@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Lean Startup Methodology",
+    "description": "Building businesses with minimal resources",
+    "link": "https://www.leanstartup.co/",
+    "type": "article",
+    "category": "entrepreneurship",
+    "tags": ["startup", "lean", "business model"]
+  },
+  {
+    "name": "Business Plan Writing",
+    "description": "How to create a comprehensive business plan",
+    "link": "https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan",
+    "type": "article",
+    "category": "entrepreneurship",
+    "tags": ["business plan", "strategy", "planning"]
+  },
+  {
+    "name": "Market Research Techniques",
+    "description": "Understanding customers and markets",
+    "link": "https://www.entrepreneur.com/encyclopedia/market-research",
+    "type": "article",
+    "category": "entrepreneurship",
+    "tags": ["market research", "customers", "analysis"]
+  },
+  {
+    "name": "Funding and Venture Capital",
+    "description": "Raising capital for your business",
+    "link": "https://www.ycombinator.com/library/",
+    "type": "article",
+    "category": "entrepreneurship",
+    "tags": ["funding", "VC", "investment"]
+  },
+  {
+    "name": "Digital Marketing Strategies",
+    "description": "Online marketing for startups",
+    "link": "https://blog.hubspot.com/marketing",
+    "type": "article",
+    "category": "entrepreneurship",
+    "tags": ["marketing", "digital", "growth"]
+  },
+  {
+    "name": "Product Management",
+    "description": "Developing and managing products",
+    "link": "https://www.mindtheproduct.com/what-is-product-management/",
+    "type": "article",
+    "category": "entrepreneurship",
+    "tags": ["product management", "development", "strategy"]
+  },
+  {
+    "name": "Startup Legal Basics",
+    "description": "Legal considerations for entrepreneurs",
+    "link": "https://www.legalzoom.com/business/business-formation/startup-legal-guide",
+    "type": "article",
+    "category": "entrepreneurship",
+    "tags": ["legal", "incorporation", "compliance"]
+  },
+  {
+    "name": "Sales Fundamentals",
+    "description": "Building sales processes and teams",
+    "link": "https://blog.hubspot.com/sales",
+    "type": "article",
+    "category": "entrepreneurship",
+    "tags": ["sales", "revenue", "business development"]
+  },
+  {
+    "name": "Leadership and Team Building",
+    "description": "Managing teams and organizational culture",
+    "link": "https://hbr.org/topic/leadership",
+    "type": "article",
+    "category": "entrepreneurship",
+    "tags": ["leadership", "management", "teams"]
+  },
+  {
+    "name": "Innovation and Creativity",
+    "description": "Fostering innovation in organizations",
+    "link": "https://www.ideou.com/pages/design-thinking",
+    "type": "article",
+    "category": "entrepreneurship",
+    "tags": ["innovation", "creativity", "design thinking"]
+  },
+  {
+    "name": "Startup Metrics and Analytics",
+    "description": "Measuring business performance",
+    "link": "https://www.forentrepreneurs.com/metrics/",
+    "type": "article",
+    "category": "entrepreneurship",
+    "tags": ["metrics", "analytics", "performance"]
+  }
+]

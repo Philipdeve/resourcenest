@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Algebra Fundamentals",
+    "description": "Basic algebraic concepts and equations",
+    "link": "https://www.khanacademy.org/math/algebra",
+    "type": "video",
+    "category": "mathematics",
+    "tags": ["algebra", "equations", "foundations"]
+  },
+  {
+    "name": "Calculus Introduction",
+    "description": "Limits, derivatives, and integrals",
+    "link": "https://www.khanacademy.org/math/calculus-1",
+    "type": "video",
+    "category": "mathematics",
+    "tags": ["calculus", "derivatives", "integrals"]
+  },
+  {
+    "name": "Statistics and Probability",
+    "description": "Data analysis and probability theory",
+    "link": "https://www.khanacademy.org/math/statistics-probability",
+    "type": "video",
+    "category": "mathematics",
+    "tags": ["statistics", "probability", "data analysis"]
+  },
+  {
+    "name": "Linear Algebra",
+    "description": "Vectors, matrices, and linear transformations",
+    "link": "https://www.khanacademy.org/math/linear-algebra",
+    "type": "video",
+    "category": "mathematics",
+    "tags": ["linear algebra", "vectors", "matrices"]
+  },
+  {
+    "name": "Discrete Mathematics",
+    "description": "Sets, graphs, and logical structures",
+    "link": "https://www.youtube.com/playlist?list=PLl-gb0E4MII28GykmtuBXNUNoej-vY5Rz",
+    "type": "video",
+    "category": "mathematics",
+    "tags": ["discrete", "logic", "computer science"]
+  },
+  {
+    "name": "Geometry and Trigonometry",
+    "description": "Shapes, angles, and spatial relationships",
+    "link": "https://www.khanacademy.org/math/geometry",
+    "type": "video",
+    "category": "mathematics",
+    "tags": ["geometry", "trigonometry", "shapes"]
+  },
+  {
+    "name": "Number Theory",
+    "description": "Properties of numbers and integers",
+    "link": "https://brilliant.org/courses/number-theory/",
+    "type": "article",
+    "category": "mathematics",
+    "tags": ["number theory", "integers", "primes"]
+  },
+  {
+    "name": "Differential Equations",
+    "description": "Equations involving derivatives",
+    "link": "https://www.khanacademy.org/math/differential-equations",
+    "type": "video",
+    "category": "mathematics",
+    "tags": ["differential equations", "calculus", "modeling"]
+  },
+  {
+    "name": "Mathematical Logic",
+    "description": "Formal systems and proof theory",
+    "link": "https://plato.stanford.edu/entries/logic-mathematics/",
+    "type": "article",
+    "category": "mathematics",
+    "tags": ["logic", "proof", "foundations"]
+  },
+  {
+    "name": "Complex Analysis",
+    "description": "Calculus with complex numbers",
+    "link": "https://www.youtube.com/playlist?list=PL22w63XsKjqzJpnuMir7b4u2hYXoVcTjX",
+    "type": "video",
+    "category": "mathematics",
+    "tags": ["complex analysis", "advanced", "calculus"]
+  },
+  {
+    "name": "Mathematical Modeling",
+    "description": "Applying math to real-world problems",
+    "link": "https://www.comap.com/",
+    "type": "article",
+    "category": "mathematics",
+    "tags": ["modeling", "applications", "problem solving"]
+  }
+]

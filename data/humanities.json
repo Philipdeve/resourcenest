@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Introduction to Philosophy",
+    "description": "Basic philosophical concepts and thinkers",
+    "link": "https://www.philosophybasics.com/",
+    "type": "article",
+    "category": "humanities",
+    "tags": ["humanities","philosophy", "ethics", "critical thinking"]
+  },
+  {
+    "name": "World Literature Classics",
+    "description": "Great books and literary analysis",
+    "link": "https://www.gutenberg.org/",
+    "type": "article",
+    "category": "humanities",
+    "tags": ["literature", "books", "reading"]
+  },
+  {
+    "name": "Art History Timeline",
+    "description": "Major art movements through history",
+    "link": "https://www.khanacademy.org/humanities/art-history",
+    "type": "video",
+    "category": "humanities",
+    "tags": ["art history", "culture", "visual arts"]
+  },
+  {
+    "name": "Ethics in Technology",
+    "description": "Moral philosophy applied to tech",
+    "link": "https://www.scu.edu/ethics/ethics-resources/",
+    "type": "article",
+    "category": "humanities",
+    "tags": ["ethics", "technology", "philosophy"]
+  },
+  {
+    "name": "Critical Thinking Skills",
+    "description": "How to analyze arguments and think logically",
+    "link": "https://philosophy.hku.hk/think/",
+    "type": "article",
+    "category": "humanities",
+    "tags": ["critical thinking", "logic", "reasoning"]
+  },
+  {
+    "name": "History of Science",
+    "description": "How scientific thought developed",
+    "link": "https://www.britannica.com/science/history-of-science",
+    "type": "article",
+    "category": "humanities",
+    "tags": ["history", "science", "philosophy"]
+  },
+  {
+    "name": "Mythology and Folklore",
+    "description": "World myths and cultural stories",
+    "link": "https://www.mythologysource.com/",
+    "type": "article",
+    "category": "humanities",
+    "tags": ["mythology", "culture", "literature"]
+  },
+  {
+    "name": "Logic and Reasoning",
+    "description": "Formal and informal logic principles",
+    "link": "https://www.logicmatters.net/iyg/",
+    "type": "article",
+    "category": "humanities",
+    "tags": ["logic", "reasoning", "philosophy"]
+  },
+  {
+    "name": "Cultural Studies",
+    "description": "Understanding different cultures and societies",
+    "link": "https://www.britannica.com/topic/cultural-studies",
+    "type": "article",
+    "category": "humanities",
+    "tags": ["culture", "society", "anthropology"]
+  },
+  {
+    "name": "Philosophy of Mind",
+    "description": "Consciousness and mental phenomena",
+    "link": "https://plato.stanford.edu/entries/consciousness/",
+    "type": "article",
+    "category": "humanities",
+    "tags": ["philosophy", "consciousness", "psychology"]
+  },
+  {
+    "name": "Rhetoric and Persuasion",
+    "description": "Art of effective communication",
+    "link": "https://classicalacademicpress.com/blogs/classical-insights/what-is-rhetoric",
+    "type": "article",
+    "category": "humanities",
+    "tags": ["rhetoric", "communication", "persuasion"]
+  }
+]

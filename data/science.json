@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Introduction to Physics",
+    "description": "Basic concepts of mechanics and motion",
+    "link": "https://www.khanacademy.org/science/physics",
+    "type": "video",
+    "category": "science",
+    "tags": ["physics", "mechanics", "motion"]
+  },
+  {
+    "name": "Biology Fundamentals",
+    "description": "Cell structure and function basics",
+    "link": "https://www.khanacademy.org/science/biology",
+    "type": "video",
+    "category": "science",
+    "tags": ["biology", "cells", "life science"]
+  },
+  {
+    "name": "Chemistry Basics",
+    "description": "Atoms, elements, and chemical reactions",
+    "link": "https://www.khanacademy.org/science/chemistry",
+    "type": "video",
+    "category": "science",
+    "tags": ["chemistry", "atoms", "elements"]
+  },
+  {
+    "name": "Astronomy 101",
+    "description": "Introduction to stars, planets, and galaxies",
+    "link": "https://www.coursera.org/learn/astronomy",
+    "type": "video",
+    "category": "science",
+    "tags": ["astronomy", "space", "physics"]
+  },
+  {
+    "name": "Geology Introduction",
+    "description": "Earth's structure and geological processes",
+    "link": "https://ocw.mit.edu/courses/earth-atmospheric-and-planetary-sciences/",
+    "type": "article",
+    "category": "science",
+    "tags": ["geology", "earth science", "rocks"]
+  },
+  {
+    "name": "Environmental Science",
+    "description": "Ecosystems and environmental systems",
+    "link": "https://www.edx.org/learn/environmental-science",
+    "type": "video",
+    "category": "science",
+    "tags": ["environment", "ecology", "sustainability"]
+  },
+  {
+    "name": "Neuroscience Basics",
+    "description": "Introduction to brain and nervous system",
+    "link": "https://www.youtube.com/playlist?list=PL848F2368C90DDC3D",
+    "type": "video",
+    "category": "science",
+    "tags": ["neuroscience", "brain", "psychology"]
+  },
+  {
+    "name": "Genetics Fundamentals",
+    "description": "DNA, genes, and heredity principles",
+    "link": "https://www.genome.gov/genetics-glossary",
+    "type": "article",
+    "category": "science",
+    "tags": ["genetics", "DNA", "biology"]
+  },
+  {
+    "name": "Scientific Method",
+    "description": "How to conduct scientific research",
+    "link": "https://www.sciencebuddies.org/science-fair-projects/science-fair/steps-of-the-scientific-method",
+    "type": "article",
+    "category": "science",
+    "tags": ["research", "methodology", "experiments"]
+  },
+  {
+    "name": "Climate Science",
+    "description": "Understanding climate change and weather patterns",
+    "link": "https://climate.nasa.gov/",
+    "type": "article",
+    "category": "science",
+    "tags": ["climate", "environment", "earth science"]
+  },
+  {
+    "name": "Quantum Physics Introduction",
+    "description": "Basic principles of quantum mechanics",
+    "link": "https://www.youtube.com/watch?v=WOeBk7e_0tY",
+    "type": "video",
+    "category": "science",
+    "tags": ["quantum", "physics", "advanced"]
+  }
+]

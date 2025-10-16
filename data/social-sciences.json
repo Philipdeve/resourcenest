@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Introduction to Psychology",
+    "description": "Basic concepts of human behavior and mind",
+    "link": "https://www.khanacademy.org/test-prep/mcat/behavior",
+    "type": "video",
+    "category": "social sciences",
+    "tags": ["psychology", "behavior", "mind"]
+  },
+  {
+    "name": "Sociology Fundamentals",
+    "description": "Study of society and social behavior",
+    "link": "https://www.khanacademy.org/test-prep/mcat/society-and-culture",
+    "type": "video",
+    "category": "social sciences",
+    "tags": ["sociology", "society", "culture"]
+  },
+  {
+    "name": "Economics Principles",
+    "description": "Micro and macroeconomic concepts",
+    "link": "https://www.khanacademy.org/economics-finance-domain",
+    "type": "video",
+    "category": "social sciences",
+    "tags": ["economics", "markets", "finance"]
+  },
+  {
+    "name": "Anthropology Introduction",
+    "description": "Study of human cultures and societies",
+    "link": "https://www.americananthro.org/LearnAndTeach",
+    "type": "article",
+    "category": "social sciences",
+    "tags": ["anthropology", "culture", "human evolution"]
+  },
+  {
+    "name": "Political Science Basics",
+    "description": "Government systems and political behavior",
+    "link": "https://www.khanacademy.org/humanities/us-government-and-civics",
+    "type": "video",
+    "category": "social sciences",
+    "tags": ["political science", "government", "politics"]
+  },
+  {
+    "name": "Cognitive Psychology",
+    "description": "How people think and process information",
+    "link": "https://nobaproject.com/modules/cognitive-psychology",
+    "type": "article",
+    "category": "social sciences",
+    "tags": ["psychology", "cognition", "thinking"]
+  },
+  {
+    "name": "Social Psychology",
+    "description": "How individuals are influenced by society",
+    "link": "https://www.simplypsychology.org/social-psychology.html",
+    "type": "article",
+    "category": "social sciences",
+    "tags": ["psychology", "social", "behavior"]
+  },
+  {
+    "name": "Cultural Anthropology",
+    "description": "Comparative study of human cultures",
+    "link": "https://www.culturalanthropology.org/",
+    "type": "article",
+    "category": "social sciences",
+    "tags": ["anthropology", "culture", "society"]
+  },
+  {
+    "name": "Behavioral Economics",
+    "description": "Psychology in economic decision making",
+    "link": "https://www.behavioraleconomics.com/resources/introduction-be/",
+    "type": "article",
+    "category": "social sciences",
+    "tags": ["economics", "psychology", "behavior"]
+  },
+  {
+    "name": "Research Methods",
+    "description": "How to conduct social science research",
+    "link": "https://www.socialscienceregistry.org/",
+    "type": "article",
+    "category": "social sciences",
+    "tags": ["research", "methodology", "data collection"]
+  },
+  {
+    "name": "Urban Studies",
+    "description": "Cities and urban development",
+    "link": "https://www.planetizen.com/",
+    "type": "article",
+    "category": "social sciences",
+    "tags": ["urban", "cities", "development"]
+  }
+]

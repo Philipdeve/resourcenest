@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Mechanical Engineering Basics",
+    "description": "Fundamentals of mechanical systems",
+    "link": "https://ocw.mit.edu/courses/mechanical-engineering/",
+    "type": "video",
+    "category": "engineering",
+    "tags": ["mechanical", "physics", "design"]
+  },
+  {
+    "name": "Electrical Engineering Introduction",
+    "description": "Circuits and electronics fundamentals",
+    "link": "https://www.allaboutcircuits.com/textbook/",
+    "type": "article",
+    "category": "engineering",
+    "tags": ["electrical", "electronics", "circuits"]
+  },
+  {
+    "name": "Civil Engineering Principles",
+    "description": "Infrastructure and construction basics",
+    "link": "https://www.ice.org.uk/what-is-civil-engineering",
+    "type": "article",
+    "category": "engineering",
+    "tags": ["civil", "construction", "infrastructure"]
+  },
+  {
+    "name": "Software Engineering",
+    "description": "Systematic approach to software development",
+    "link": "https://www.freecodecamp.org/news/software-engineering/",
+    "type": "article",
+    "category": "engineering",
+    "tags": ["software", "programming", "development"]
+  },
+  {
+    "name": "Chemical Engineering Processes",
+    "description": "Industrial chemical processes and design",
+    "link": "https://www.chemengonline.com/",
+    "type": "article",
+    "category": "engineering",
+    "tags": ["chemical", "processes", "industry"]
+  },
+  {
+    "name": "Aerospace Engineering",
+    "description": "Aircraft and spacecraft design principles",
+    "link": "https://www.aiaa.org/",
+    "type": "article",
+    "category": "engineering",
+    "tags": ["aerospace", "aviation", "space"]
+  },
+  {
+    "name": "Biomedical Engineering",
+    "description": "Engineering applications in medicine",
+    "link": "https://www.bmes.org/what-is-biomedical-engineering",
+    "type": "article",
+    "category": "engineering",
+    "tags": ["biomedical", "medicine", "healthcare"]
+  },
+  {
+    "name": "Environmental Engineering",
+    "description": "Sustainable engineering solutions",
+    "link": "https://www.epa.gov/environmental-engineering",
+    "type": "article",
+    "category": "engineering",
+    "tags": ["environmental", "sustainability", "green"]
+  },
+  {
+    "name": "Materials Science",
+    "description": "Properties and applications of materials",
+    "link": "https://www.materialstoday.com/",
+    "type": "article",
+    "category": "engineering",
+    "tags": ["materials", "science", "properties"]
+  },
+  {
+    "name": "Robotics Engineering",
+    "description": "Design and control of robotic systems",
+    "link": "https://robotics.ieee.org/learn/",
+    "type": "article",
+    "category": "engineering",
+    "tags": ["robotics", "automation", "AI"]
+  },
+  {
+    "name": "Systems Engineering",
+    "description": "Complex system design and integration",
+    "link": "https://www.incose.org/systems-engineering",
+    "type": "article",
+    "category": "engineering",
+    "tags": ["systems", "integration", "complexity"]
+  }
+]

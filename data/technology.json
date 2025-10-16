@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Python Programming",
+    "description": "Learn Python from scratch",
+    "link": "https://www.learnpython.org/",
+    "type": "article",
+    "category": "technology",
+    "tags": ["programming", "python", "coding"]
+  },
+  {
+    "name": "Web Development Basics",
+    "description": "HTML, CSS, and JavaScript fundamentals",
+    "link": "https://developer.mozilla.org/en-US/docs/Learn",
+    "type": "article",
+    "category": "technology",
+    "tags": ["web development", "html", "css", "javascript"]
+  },
+  {
+    "name": "Machine Learning Introduction",
+    "description": "AI and machine learning concepts",
+    "link": "https://www.coursera.org/learn/machine-learning",
+    "type": "video",
+    "category": "technology",
+    "tags": ["AI", "machine learning", "data science"]
+  },
+  {
+    "name": "Git and GitHub Tutorial",
+    "description": "Version control for developers",
+    "link": "https://guides.github.com/activities/hello-world/",
+    "type": "article",
+    "category": "technology",
+    "tags": ["git", "version control", "programming"]
+  },
+  {
+    "name": "Cybersecurity Fundamentals",
+    "description": "Basic security principles and practices",
+    "link": "https://www.coursera.org/learn/introduction-cybersecurity-essentials",
+    "type": "video",
+    "category": "technology",
+    "tags": ["security", "cybersecurity", "networking"]
+  },
+  {
+    "name": "Database Design",
+    "description": "SQL and database management systems",
+    "link": "https://www.w3schools.com/sql/",
+    "type": "article",
+    "category": "technology",
+    "tags": ["database", "SQL", "data management"]
+  },
+  {
+    "name": "Cloud Computing Basics",
+    "description": "Introduction to AWS, Azure, and cloud services",
+    "link": "https://aws.amazon.com/getting-started/",
+    "type": "article",
+    "category": "technology",
+    "tags": ["cloud", "AWS", "infrastructure"]
+  },
+  {
+    "name": "Mobile App Development",
+    "description": "Building apps for iOS and Android",
+    "link": "https://developer.android.com/courses",
+    "type": "article",
+    "category": "technology",
+    "tags": ["mobile", "apps", "android", "ios"]
+  },
+  {
+    "name": "Data Structures and Algorithms",
+    "description": "Computer science fundamentals",
+    "link": "https://www.geeksforgeeks.org/data-structures/",
+    "type": "article",
+    "category": "technology",
+    "tags": ["algorithms", "data structures", "computer science"]
+  },
+  {
+    "name": "UX/UI Design Principles",
+    "description": "User experience and interface design",
+    "link": "https://www.interaction-design.org/literature/topics/ux-design",
+    "type": "article",
+    "category": "technology",
+    "tags": ["design", "UX", "UI", "user experience"]
+  },
+  {
+    "name": "Blockchain Technology",
+    "description": "Understanding blockchain and cryptocurrencies",
+    "link": "https://www.blockchain-council.org/blockchain/",
+    "type": "article",
+    "category": "technology",
+    "tags": ["blockchain", "crypto", "distributed systems"]
+  }
+]
