@@ -5,6 +5,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { BookOpen, Clock, Edit, ArrowLeft } from "lucide-react";
 import { useNavigate, Link } from "react-router-dom";
 import { toast } from "sonner";
+import Navbar from "@/components/Navbar";
+
 
 interface Resource {
   id: string;
@@ -82,6 +84,7 @@ export default function Profile() {
 
   return (
     <div className="container mx-auto max-w-4xl py-10 px-4">
+      <Navbar />
       {/* Back Button */}
       <button
         onClick={() => navigate(-1)}
