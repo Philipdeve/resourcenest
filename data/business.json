@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Principles of Management",
+    "description": "Learn the core concepts of planning, organizing, leading, and controlling within an organization.",
+    "link": "https://openstax.org/books/principles-management/pages/1-introduction",
+    "type": "article",
+    "category": "business",
+    "tags": ["management", "leadership", "organization"]
+  },
+  {
+    "name": "Introduction to Business Strategy",
+    "description": "Understand strategic management fundamentals and how companies gain a competitive edge.",
+    "link": "https://www.coursera.org/learn/strategic-management",
+    "type": "video",
+    "category": "business",
+    "tags": ["strategy", "business", "competitive advantage"]
+  },
+  {
+    "name": "Financial Accounting Fundamentals",
+    "description": "A beginner-friendly guide to financial statements and accounting principles.",
+    "link": "https://www.edx.org/course/financial-accounting",
+    "type": "article",
+    "category": "business",
+    "tags": ["accounting", "finance", "bookkeeping"]
+  },
+  {
+    "name": "Marketing Management",
+    "description": "Explore marketing strategy, customer behavior, and brand positioning.",
+    "link": "https://www.coursera.org/learn/marketing-management",
+    "type": "video",
+    "category": "business",
+    "tags": ["marketing", "branding", "strategy"]
+  },
+  {
+    "name": "Entrepreneurship in Emerging Economies",
+    "description": "How entrepreneurs drive growth and innovation in developing markets.",
+    "link": "https://online.hbs.edu/courses/entrepreneurship-emerging-economies/",
+    "type": "video",
+    "category": "business",
+    "tags": ["entrepreneurship", "innovation", "startups"]
+  },
+  {
+    "name": "Operations Management",
+    "description": "Learn how to manage processes, logistics, and production efficiency in organizations.",
+    "link": "https://ocw.mit.edu/courses/sloan-school-of-management/15-761-operations-management-spring-2016/",
+    "type": "article",
+    "category": "management",
+    "tags": ["operations", "logistics", "process improvement"]
+  },
+  {
+    "name": "Organizational Behavior",
+    "description": "Understand how people interact within companies and how culture impacts performance.",
+    "link": "https://openstax.org/books/organizational-behavior/pages/1-introduction",
+    "type": "article",
+    "category": "management",
+    "tags": ["culture", "behavior", "leadership"]
+  },
+  {
+    "name": "Business Analytics Foundations",
+    "description": "Learn how data analysis supports better business decision-making.",
+    "link": "https://www.edx.org/course/business-analytics",
+    "type": "article",
+    "category": "business",
+    "tags": ["analytics", "data", "decision making"]
+  },
+  {
+    "name": "Human Resource Management",
+    "description": "Recruitment, motivation, and performance management essentials.",
+    "link": "https://www.coursera.org/learn/human-resources",
+    "type": "video",
+    "category": "management",
+    "tags": ["HR", "management", "workforce"]
+  },
+  {
+    "name": "Corporate Finance Essentials",
+    "description": "Dive into capital budgeting, financial ratios, and valuation techniques.",
+    "link": "https://www.coursera.org/learn/corporate-finance-essentials",
+    "type": "article",
+    "category": "business",
+    "tags": ["finance", "corporate", "valuation"]
+  },
+  {
+    "name": "Leadership and Influence",
+    "description": "Build leadership and communication skills for team and project management.",
+    "link": "https://online.hbs.edu/courses/leadership-principles/",
+    "type": "video",
+    "category": "management",
+    "tags": ["leadership", "communication", "influence"]
+  },
+  {
+    "name": "Project Management Fundamentals",
+    "description": "Learn project planning, execution, and stakeholder management.",
+    "link": "https://www.pmi.org/learning/library/project-management-fundamentals-8320",
+    "type": "article",
+    "category": "management",
+    "tags": ["project management", "planning", "execution"]
+  },
+  {
+    "name": "Sustainability and Corporate Responsibility",
+    "description": "Understand how companies create value ethically and sustainably.",
+    "link": "https://www.futurelearn.com/courses/corporate-sustainability",
+    "type": "video",
+    "category": "business",
+    "tags": ["sustainability", "ethics", "CSR"]
+  },
+  {
+    "name": "Economics for Managers",
+    "description": "Analyze markets, pricing, and economic systems relevant to business management.",
+    "link": "https://online.hbs.edu/courses/economics-for-managers/",
+    "type": "article",
+    "category": "business",
+    "tags": ["economics", "microeconomics", "management"]
+  },
+  {
+    "name": "Strategic Innovation and Change Management",
+    "description": "Managing organizational transformation and fostering innovation.",
+    "link": "https://www.coursera.org/learn/innovation-change-management",
+    "type": "video",
+    "category": "management",
+    "tags": ["innovation", "strategy", "change management"]
+  }
+]

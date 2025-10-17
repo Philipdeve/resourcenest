@@ -8,6 +8,8 @@ import Resources from "./pages/Resources";
 import Auth from "./pages/Auth";
 import Bookmarks from "./pages/Bookmarks";
 import NotFound from "./pages/NotFound";
+import Profile from "@/pages/Profile";
+import EditProfile from "./pages/EditProfile";
 
 const queryClient = new QueryClient();
 
@@ -22,6 +24,8 @@ const App = () => (
           <Route path="/resources" element={<Resources />} />
           <Route path="/auth" element={<Auth />} />
           <Route path="/bookmarks" element={<Bookmarks />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/edit-profile" element={<EditProfile />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>

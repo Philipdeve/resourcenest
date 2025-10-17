@@ -1,90 +1,132 @@
-[
-  {
-    "name": "Python Programming",
-    "description": "Learn Python from scratch",
-    "link": "https://www.learnpython.org/",
-    "type": "article",
-    "category": "technology",
-    "tags": ["programming", "python", "coding"]
-  },
-  {
-    "name": "Web Development Basics",
-    "description": "HTML, CSS, and JavaScript fundamentals",
-    "link": "https://developer.mozilla.org/en-US/docs/Learn",
-    "type": "article",
-    "category": "technology",
-    "tags": ["web development", "html", "css", "javascript"]
-  },
-  {
-    "name": "Machine Learning Introduction",
-    "description": "AI and machine learning concepts",
-    "link": "https://www.coursera.org/learn/machine-learning",
-    "type": "video",
-    "category": "technology",
-    "tags": ["AI", "machine learning", "data science"]
-  },
-  {
-    "name": "Git and GitHub Tutorial",
-    "description": "Version control for developers",
-    "link": "https://guides.github.com/activities/hello-world/",
-    "type": "article",
-    "category": "technology",
-    "tags": ["git", "version control", "programming"]
-  },
-  {
-    "name": "Cybersecurity Fundamentals",
-    "description": "Basic security principles and practices",
-    "link": "https://www.coursera.org/learn/introduction-cybersecurity-essentials",
-    "type": "video",
-    "category": "technology",
-    "tags": ["security", "cybersecurity", "networking"]
-  },
-  {
-    "name": "Database Design",
-    "description": "SQL and database management systems",
-    "link": "https://www.w3schools.com/sql/",
-    "type": "article",
-    "category": "technology",
-    "tags": ["database", "SQL", "data management"]
-  },
-  {
-    "name": "Cloud Computing Basics",
-    "description": "Introduction to AWS, Azure, and cloud services",
-    "link": "https://aws.amazon.com/getting-started/",
-    "type": "article",
-    "category": "technology",
-    "tags": ["cloud", "AWS", "infrastructure"]
-  },
-  {
-    "name": "Mobile App Development",
-    "description": "Building apps for iOS and Android",
-    "link": "https://developer.android.com/courses",
-    "type": "article",
-    "category": "technology",
-    "tags": ["mobile", "apps", "android", "ios"]
-  },
-  {
-    "name": "Data Structures and Algorithms",
-    "description": "Computer science fundamentals",
-    "link": "https://www.geeksforgeeks.org/data-structures/",
-    "type": "article",
-    "category": "technology",
-    "tags": ["algorithms", "data structures", "computer science"]
-  },
-  {
-    "name": "UX/UI Design Principles",
-    "description": "User experience and interface design",
-    "link": "https://www.interaction-design.org/literature/topics/ux-design",
-    "type": "article",
-    "category": "technology",
-    "tags": ["design", "UX", "UI", "user experience"]
-  },
-  {
-    "name": "Blockchain Technology",
-    "description": "Understanding blockchain and cryptocurrencies",
-    "link": "https://www.blockchain-council.org/blockchain/",
-    "type": "article",
-    "category": "technology",
-    "tags": ["blockchain", "crypto", "distributed systems"]
+{
+  "technology_resources": {
+    "undergraduate": [
+      {
+        "name": "Python Programming Fundamentals",
+        "description": "Learn Python from scratch — syntax, data types, and basic logic building.",
+        "link": "https://www.learnpython.org/",
+        "type": "article",
+        "category": "technology",
+        "tags": ["python", "programming", "beginners"]
+      },
+      {
+        "name": "Web Development Basics",
+        "description": "Master HTML, CSS, and JavaScript to build your first web pages.",
+        "link": "https://developer.mozilla.org/en-US/docs/Learn",
+        "type": "article",
+        "category": "technology",
+        "tags": ["html", "css", "javascript", "frontend"]
+      },
+      {
+        "name": "Introduction to Databases",
+        "description": "Understand database concepts, SQL commands, and relational models.",
+        "link": "https://www.w3schools.com/sql/",
+        "type": "article",
+        "category": "technology",
+        "tags": ["database", "SQL", "data management"]
+      },
+      {
+        "name": "Git and GitHub Essentials",
+        "description": "Learn version control, repositories, and collaboration with GitHub.",
+        "link": "https://guides.github.com/activities/hello-world/",
+        "type": "article",
+        "category": "technology",
+        "tags": ["git", "github", "version control"]
+      },
+      {
+        "name": "Data Structures and Algorithms",
+        "description": "Foundations of computer science including sorting, searching, and logic design.",
+        "link": "https://www.geeksforgeeks.org/data-structures/",
+        "type": "article",
+        "category": "technology",
+        "tags": ["algorithms", "data structures", "computer science"]
+      }
+    ],
+
+    "masters": [
+      {
+        "name": "Advanced Web Development",
+        "description": "Deep dive into React, Node.js, APIs, and full-stack architecture.",
+        "link": "https://www.freecodecamp.org/learn/",
+        "type": "video",
+        "category": "technology",
+        "tags": ["web", "react", "node", "full-stack"]
+      },
+      {
+        "name": "Machine Learning and AI Concepts",
+        "description": "Learn supervised and unsupervised learning techniques with real-world projects.",
+        "link": "https://www.coursera.org/learn/machine-learning",
+        "type": "video",
+        "category": "technology",
+        "tags": ["machine learning", "AI", "data science"]
+      },
+      {
+        "name": "Cloud Computing and Virtualization",
+        "description": "Comprehensive overview of AWS, Azure, and cloud service models.",
+        "link": "https://aws.amazon.com/getting-started/",
+        "type": "article",
+        "category": "technology",
+        "tags": ["cloud", "AWS", "azure", "virtualization"]
+      },
+      {
+        "name": "Cybersecurity Fundamentals",
+        "description": "Learn the foundations of securing digital systems and networks.",
+        "link": "https://www.coursera.org/learn/introduction-cybersecurity-essentials",
+        "type": "video",
+        "category": "technology",
+        "tags": ["cybersecurity", "network", "encryption"]
+      },
+      {
+        "name": "Mobile Application Development",
+        "description": "Build modern mobile apps for Android and iOS using Flutter or React Native.",
+        "link": "https://developer.android.com/courses",
+        "type": "article",
+        "category": "technology",
+        "tags": ["mobile", "android", "ios", "react native"]
+      }
+    ],
+
+    "postgraduate": [
+      {
+        "name": "Deep Learning and Neural Networks",
+        "description": "Advanced AI models, CNNs, RNNs, and transformer architectures.",
+        "link": "https://www.deeplearning.ai/",
+        "type": "video",
+        "category": "technology",
+        "tags": ["deep learning", "AI", "neural networks"]
+      },
+      {
+        "name": "Blockchain and Distributed Systems",
+        "description": "Understanding the design and implementation of secure decentralized networks.",
+        "link": "https://www.blockchain-council.org/blockchain/",
+        "type": "article",
+        "category": "technology",
+        "tags": ["blockchain", "crypto", "distributed systems"]
+      },
+      {
+        "name": "Big Data Analytics",
+        "description": "Analyzing and processing massive datasets using Hadoop and Spark.",
+        "link": "https://www.edx.org/learn/big-data",
+        "type": "video",
+        "category": "technology",
+        "tags": ["big data", "analytics", "data engineering"]
+      },
+      {
+        "name": "UX/UI Design and Human-Computer Interaction",
+        "description": "Research-based design principles for digital product interfaces.",
+        "link": "https://www.interaction-design.org/literature/topics/ux-design",
+        "type": "article",
+        "category": "technology",
+        "tags": ["UX", "UI", "design", "usability"]
+      },
+      {
+        "name": "Ethical AI and Emerging Technologies",
+        "description": "Explore the ethics, bias, and global impacts of AI innovation.",
+        "link": "https://plato.stanford.edu/entries/ethics-ai/",
+        "type": "article",
+        "category": "technology",
+        "tags": ["ethics", "AI", "society"]
+      }
+    ]
   }
-]
+}

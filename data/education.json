@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Foundations of Education",
+    "description": "Explore the history, philosophy, and sociology of education and their influence on modern teaching.",
+    "link": "https://www.coursera.org/learn/foundations-of-teaching",
+    "type": "video",
+    "category": "education",
+    "tags": ["education", "teaching", "philosophy", "learning"]
+  },
+  {
+    "name": "Learning How to Learn",
+    "description": "Discover powerful mental tools to help you master tough subjects and improve study techniques.",
+    "link": "https://www.coursera.org/learn/learning-how-to-learn",
+    "type": "video",
+    "category": "education",
+    "tags": ["learning", "cognitive science", "study skills"]
+  },
+  {
+    "name": "Instructional Design for Online Learning",
+    "description": "Learn how to design engaging and effective online learning experiences.",
+    "link": "https://www.edx.org/course/instructional-design-and-technology",
+    "type": "article",
+    "category": "education",
+    "tags": ["instructional design", "online education", "edtech"]
+  },
+  {
+    "name": "Classroom Management Strategies",
+    "description": "Techniques for maintaining a positive learning environment and managing student behavior.",
+    "link": "https://www.futurelearn.com/courses/classroom-behaviour",
+    "type": "video",
+    "category": "education",
+    "tags": ["classroom", "management", "teaching methods"]
+  },
+  {
+    "name": "Educational Psychology",
+    "description": "Understand how students learn and apply psychological principles to improve teaching effectiveness.",
+    "link": "https://ocw.mit.edu/courses/brain-and-cognitive-sciences/9-00sc-introduction-to-psychology-fall-2011/",
+    "type": "article",
+    "category": "education",
+    "tags": ["psychology", "learning theory", "cognitive science"]
+  },
+  {
+    "name": "Assessment and Evaluation in Education",
+    "description": "Learn how to measure and evaluate learning outcomes effectively.",
+    "link": "https://www.coursera.org/learn/assessment-for-learning",
+    "type": "video",
+    "category": "education",
+    "tags": ["assessment", "evaluation", "education quality"]
+  },
+  {
+    "name": "Special Needs and Inclusive Education",
+    "description": "Explore how to create inclusive classrooms that accommodate all learners.",
+    "link": "https://www.futurelearn.com/courses/inclusive-education",
+    "type": "video",
+    "category": "education",
+    "tags": ["special education", "inclusion", "diversity"]
+  },
+  {
+    "name": "Educational Leadership and Policy",
+    "description": "Develop leadership skills for managing schools and shaping education policy.",
+    "link": "https://www.edx.org/course/educational-leadership",
+    "type": "article",
+    "category": "education",
+    "tags": ["leadership", "policy", "education management"]
+  },
+  {
+    "name": "Technology in Education",
+    "description": "Integrate digital tools and platforms into teaching to enhance student engagement.",
+    "link": "https://www.coursera.org/specializations/edtech",
+    "type": "video",
+    "category": "education",
+    "tags": ["edtech", "digital learning", "teaching innovation"]
+  },
+  {
+    "name": "Curriculum Development and Design",
+    "description": "Learn how to plan, organize, and evaluate curricula across educational levels.",
+    "link": "https://www.coursera.org/learn/curriculum-design",
+    "type": "article",
+    "category": "education",
+    "tags": ["curriculum", "teaching design", "education planning"]
+  },
+  {
+    "name": "Early Childhood Education",
+    "description": "Focus on developmental stages, play-based learning, and early pedagogy principles.",
+    "link": "https://www.futurelearn.com/courses/early-childhood-education",
+    "type": "video",
+    "category": "education",
+    "tags": ["child development", "preschool", "pedagogy"]
+  },
+  {
+    "name": "Research Methods in Education",
+    "description": "Gain skills in educational research design, data collection, and analysis.",
+    "link": "https://www.edx.org/course/research-methods",
+    "type": "article",
+    "category": "education",
+    "tags": ["research", "quantitative", "qualitative", "education"]
+  }
+]

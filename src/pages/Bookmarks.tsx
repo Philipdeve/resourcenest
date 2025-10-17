@@ -9,6 +9,13 @@ import scienceData from "../../data/science.json";
 import techData from "../../data/technology.json";
 import engData from "../../data/engineering.json";
 import mathsData from "../../data/maths.json";
+import medicineData from "../../data/medicine.json";
+import educationData from "../../data/education.json";
+import businessData from "../../data/business.json";
+import artsData from "../../data/art.json";
+import lawData from "../../data/law.json";
+import computerData from "../../data/computer.json";
+import socialData from "../../data/social.json";
 
 interface Resource {
   name: string;
@@ -25,12 +32,28 @@ const Bookmarks = () => {
   const [loading, setLoading] = useState(true);
   const [user, setUser] = useState<any>(null);
 
-   const allData = [
-      ...scienceData,
-      ...engData, 
-      ...mathsData,
-      ...techData,
-    ];
+  const extractResources = (obj: any): Resource[] => {
+    if (!obj) return [];
+    if (Array.isArray(obj)) return obj;
+    if (typeof obj === "object") {
+      return Object.values(obj).flatMap((v) => extractResources(v));
+    }
+    return [];
+  };
+
+  const allData = [
+    ...extractResources(scienceData),
+    ...extractResources(engData),
+    ...extractResources(mathsData),
+    ...extractResources(techData),
+    ...extractResources(businessData),
+    ...extractResources(artsData),
+    ...extractResources(medicineData),
+    ...extractResources(lawData),
+    ...extractResources(educationData),
+    ...extractResources(computerData),
+    ...extractResources(socialData),
+  ];
 
   useEffect(() => {
     supabase.auth.getSession().then(({ data: { session } }) => {
@@ -142,7 +165,7 @@ const Bookmarks = () => {
             <BookmarkIcon className="h-8 w-8" />
             My Bookmarks
           </h1>
-          <p className="text-muted-foreground">Your saved STEM resources</p>
+          <p className="text-muted-foreground">Your saved Academic resources</p>
         </div>
 
         {loading ? (

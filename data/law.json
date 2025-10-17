@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Introduction to Law",
+    "description": "A beginner’s overview of legal systems, court structures, and basic legal principles.",
+    "link": "https://www.coursera.org/learn/intro-to-law",
+    "type": "video",
+    "category": "law and governance",
+    "tags": ["law", "legal systems", "introductory law"]
+  },
+  {
+    "name": "Constitutional Law",
+    "description": "Explore constitutional principles, rights, and governmental structures.",
+    "link": "https://oyc.yale.edu/political-science/plsc-114",
+    "type": "video",
+    "category": "law and governance",
+    "tags": ["constitution", "rights", "governance"]
+  },
+  {
+    "name": "International Law",
+    "description": "Understand treaties, international organizations, and global legal frameworks.",
+    "link": "https://www.edx.org/course/international-law",
+    "type": "article",
+    "category": "law and governance",
+    "tags": ["international law", "UN", "global policy"]
+  },
+  {
+    "name": "Criminal Law Basics",
+    "description": "Study crime classifications, defenses, and legal procedures.",
+    "link": "https://www.coursera.org/learn/criminal-law",
+    "type": "video",
+    "category": "law and governance",
+    "tags": ["criminal law", "justice", "law enforcement"]
+  },
+  {
+    "name": "Public Policy and Administration",
+    "description": "Examine how policies are formed, implemented, and evaluated in governance.",
+    "link": "https://ocw.mit.edu/courses/political-science/17-30j-making-public-policy-fall-2010/",
+    "type": "article",
+    "category": "law and governance",
+    "tags": ["policy", "administration", "governance"]
+  },
+  {
+    "name": "Human Rights Law",
+    "description": "Explore the foundations and applications of human rights in modern governance.",
+    "link": "https://www.futurelearn.com/courses/international-human-rights-law",
+    "type": "video",
+    "category": "law and governance",
+    "tags": ["human rights", "justice", "law"]
+  },
+  {
+    "name": "Corporate and Business Law",
+    "description": "Understand contracts, company law, and business regulations.",
+    "link": "https://www.accaglobal.com/an/en/student/exam-support-resources/fundamentals-exams-study-resources/f4/technical-articles.html",
+    "type": "article",
+    "category": "law and governance",
+    "tags": ["corporate law", "contracts", "business law"]
+  },
+  {
+    "name": "Environmental Law and Policy",
+    "description": "Learn how legal systems regulate environmental protection and sustainability.",
+    "link": "https://online.hbs.edu/courses/sustainable-business-strategy/",
+    "type": "article",
+    "category": "law and governance",
+    "tags": ["environmental law", "sustainability", "policy"]
+  },
+  {
+    "name": "Comparative Legal Systems",
+    "description": "Compare legal traditions across different countries and cultures.",
+    "link": "https://www.coursera.org/learn/comparative-law",
+    "type": "video",
+    "category": "law and governance",
+    "tags": ["comparative law", "international law", "jurisprudence"]
+  },
+  {
+    "name": "Cyber Law and Digital Governance",
+    "description": "Explore data privacy, cybersecurity laws, and digital policy frameworks.",
+    "link": "https://www.edx.org/course/cybersecurity-law-and-policy",
+    "type": "video",
+    "category": "law and governance",
+    "tags": ["cyber law", "privacy", "digital governance"]
+  },
+  {
+    "name": "Ethics and Legal Philosophy",
+    "description": "Delve into the moral and philosophical foundations of law.",
+    "link": "https://plato.stanford.edu/entries/lawphil-theory/",
+    "type": "article",
+    "category": "law and governance",
+    "tags": ["ethics", "jurisprudence", "philosophy"]
+  },
+  {
+    "name": "Governance and Leadership in Public Service",
+    "description": "Develop leadership skills for ethical and effective governance.",
+    "link": "https://www.futurelearn.com/courses/public-leadership",
+    "type": "video",
+    "category": "law and governance",
+    "tags": ["leadership", "governance", "public service"]
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Introduction to Philosophy",
+    "description": "Explore fundamental philosophical questions about existence, morality, and reason.",
+    "link": "https://plato.stanford.edu/contents.html",
+    "type": "article",
+    "category": "arts & humanities",
+    "tags": ["philosophy", "ethics", "logic"]
+  },
+  {
+    "name": "World History Overview",
+    "description": "A comprehensive look at world civilizations from ancient to modern times.",
+    "link": "https://www.khanacademy.org/humanities/world-history",
+    "type": "video",
+    "category": "arts & humanities",
+    "tags": ["history", "civilization", "culture"]
+  },
+  {
+    "name": "Introduction to Literature",
+    "description": "Learn how to read, interpret, and analyze literary texts across genres.",
+    "link": "https://openstax.org/books/introduction-literature/pages/1-introduction",
+    "type": "article",
+    "category": "arts & humanities",
+    "tags": ["literature", "analysis", "reading"]
+  },
+  {
+    "name": "Art History: Renaissance to Modern",
+    "description": "Study artistic movements, influential artists, and historical context.",
+    "link": "https://smarthistory.org/",
+    "type": "video",
+    "category": "arts & humanities",
+    "tags": ["art history", "painting", "culture"]
+  },
+  {
+    "name": "Creative Writing Foundations",
+    "description": "Develop storytelling, poetry, and narrative structure skills.",
+    "link": "https://www.coursera.org/learn/creative-writing",
+    "type": "video",
+    "category": "arts & humanities",
+    "tags": ["writing", "storytelling", "creativity"]
+  },
+  {
+    "name": "Introduction to Linguistics",
+    "description": "Study the structure, meaning, and use of language.",
+    "link": "https://www.coursera.org/learn/linguistics",
+    "type": "article",
+    "category": "arts & humanities",
+    "tags": ["language", "linguistics", "communication"]
+  },
+  {
+    "name": "Ethics and Moral Philosophy",
+    "description": "Examine moral reasoning and ethical theories applied to real-world issues.",
+    "link": "https://openstax.org/books/ethics/pages/1-introduction",
+    "type": "article",
+    "category": "arts & humanities",
+    "tags": ["ethics", "morality", "philosophy"]
+  },
+  {
+    "name": "Visual Arts and Design",
+    "description": "Learn principles of design, color theory, and creative composition.",
+    "link": "https://www.coursera.org/learn/design-principles",
+    "type": "video",
+    "category": "arts & humanities",
+    "tags": ["design", "art", "visual"]
+  },
+  {
+    "name": "Cultural Anthropology",
+    "description": "Explore human societies, traditions, and belief systems across the world.",
+    "link": "https://open.umn.edu/opentextbooks/textbooks/cultural-anthropology",
+    "type": "article",
+    "category": "arts & humanities",
+    "tags": ["anthropology", "culture", "society"]
+  },
+  {
+    "name": "Music Theory Basics",
+    "description": "Understand rhythm, harmony, melody, and notation in music.",
+    "link": "https://www.musictheory.net/lessons",
+    "type": "article",
+    "category": "arts & humanities",
+    "tags": ["music", "theory", "composition"]
+  },
+  {
+    "name": "Film Studies: Understanding Cinema",
+    "description": "Learn how to critically analyze film form, style, and genre.",
+    "link": "https://www.futurelearn.com/courses/film-education",
+    "type": "video",
+    "category": "arts & humanities",
+    "tags": ["film", "cinema", "visual storytelling"]
+  },
+  {
+    "name": "Sociology: Understanding Society",
+    "description": "Discover how societies are structured and how social interactions shape human behavior.",
+    "link": "https://openstax.org/books/introduction-sociology/pages/1-introduction",
+    "type": "article",
+    "category": "arts & humanities",
+    "tags": ["sociology", "society", "social behavior"]
+  },
+  {
+    "name": "Political Theory and Thought",
+    "description": "Examine political ideologies and influential thinkers from Plato to modern democracy.",
+    "link": "https://plato.stanford.edu/entries/political-theories/",
+    "type": "article",
+    "category": "arts & humanities",
+    "tags": ["politics", "theory", "governance"]
+  },
+  {
+    "name": "Media and Communication Studies",
+    "description": "Understand how media shapes culture, identity, and public discourse.",
+    "link": "https://www.coursera.org/learn/media-communication",
+    "type": "video",
+    "category": "arts & humanities",
+    "tags": ["media", "communication", "society"]
+  },
+  {
+    "name": "Modern and Contemporary Art",
+    "description": "Explore 20th and 21st-century art movements and their cultural impact.",
+    "link": "https://www.moma.org/learn/moma_learning/",
+    "type": "article",
+    "category": "arts & humanities",
+    "tags": ["modern art", "culture", "creativity"]
+  }
+]
