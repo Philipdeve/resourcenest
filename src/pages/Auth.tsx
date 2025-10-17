@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -8,7 +8,6 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { supabase } from "@/integrations/supabase/client";
 import { toast } from "sonner";
 import { BookOpen } from "lucide-react";
-import { Link } from "react-router-dom";
 
 const Auth = () => {
   const navigate = useNavigate();
@@ -17,19 +16,14 @@ const Auth = () => {
   const [password, setPassword] = useState("");
 
   useEffect(() => {
-    // Check if user is already logged in
     supabase.auth.getSession().then(({ data: { session } }) => {
-      if (session) {
-        navigate("/resources");
-      }
+      if (session) navigate("/resources");
     });
 
     const {
       data: { subscription },
     } = supabase.auth.onAuthStateChange((_event, session) => {
-      if (session) {
-        navigate("/resources");
-      }
+      if (session) navigate("/resources");
     });
 
     return () => subscription.unsubscribe();
@@ -38,19 +32,14 @@ const Auth = () => {
   const handleSignUp = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-
     try {
       const { error } = await supabase.auth.signUp({
         email,
         password,
-        options: {
-          emailRedirectTo: `${window.location.origin}/resources`,
-        },
+        options: { emailRedirectTo: `${window.location.origin}/resources` },
       });
-
       if (error) throw error;
-
-      toast.success("Account created! Please check your email to verify.");
+      toast.success("Account created! Check your email to verify.");
       setEmail("");
       setPassword("");
     } catch (error: any) {
@@ -63,15 +52,9 @@ const Auth = () => {
   const handleSignIn = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-
     try {
-      const { error } = await supabase.auth.signInWithPassword({
-        email,
-        password,
-      });
-
+      const { error } = await supabase.auth.signInWithPassword({ email, password });
       if (error) throw error;
-
       toast.success("Logged in successfully!");
       navigate("/resources");
     } catch (error: any) {
@@ -82,31 +65,37 @@ const Auth = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary/10 via-background to-accent/10 flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-[#FF6B6B]/10 via-white to-[#6C63FF]/10 flex items-center justify-center px-4">
       <div className="w-full max-w-md">
+        {/* Logo */}
         <div className="text-center mb-8">
-          <Link to="/" className="inline-flex items-center gap-2 text-2xl font-bold mb-2">
-            <BookOpen className="h-8 w-8 text-primary" />
-            <span className="gradient-text">Student Hub</span>
+          <Link to="/" className="inline-flex items-center gap-2 text-3xl font-bold">
+            <BookOpen className="h-8 w-8 text-[#FF6B6B]" />
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FF6B6B] to-[#6C63FF]">
+              Student Hub
+            </span>
           </Link>
-          <p className="text-muted-foreground">Your gateway to STEM resources</p>
+          <p className="text-gray-500 mt-1">Your Gateway to Academic Resources</p>
         </div>
 
-        <Card>
-          <CardHeader>
-            <CardTitle>Welcome</CardTitle>
-            <CardDescription>Sign in to access exclusive STEM resources</CardDescription>
+        {/* Auth Card */}
+        <Card className="shadow-lg border border-gray-100">
+          <CardHeader className="text-center">
+            <CardTitle className="text-2xl font-bold">Welcome</CardTitle>
+            <CardDescription>Sign in to access exclusive resources</CardDescription>
           </CardHeader>
+
           <CardContent>
             <Tabs defaultValue="signin">
-              <TabsList className="grid w-full grid-cols-2">
-                <TabsTrigger value="signin">Sign In</TabsTrigger>
-                <TabsTrigger value="signup">Sign Up</TabsTrigger>
+              <TabsList className="grid w-full grid-cols-2 mb-6 bg-gray-100 rounded-lg p-1">
+                <TabsTrigger value="signin" className="rounded-lg">Sign In</TabsTrigger>
+                <TabsTrigger value="signup" className="rounded-lg">Sign Up</TabsTrigger>
               </TabsList>
 
+              {/* Sign In Form */}
               <TabsContent value="signin">
-                <form onSubmit={handleSignIn} className="space-y-4">
-                  <div className="space-y-2">
+                <form onSubmit={handleSignIn} className="space-y-5">
+                  <div className="space-y-1">
                     <Label htmlFor="signin-email">Email</Label>
                     <Input
                       id="signin-email"
@@ -115,9 +104,10 @@ const Auth = () => {
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       required
+                      className="border-gray-300 focus:ring-[#FF6B6B]/50 focus:border-[#FF6B6B]"
                     />
                   </div>
-                  <div className="space-y-2">
+                  <div className="space-y-1">
                     <Label htmlFor="signin-password">Password</Label>
                     <Input
                       id="signin-password"
@@ -125,17 +115,19 @@ const Auth = () => {
                       value={password}
                       onChange={(e) => setPassword(e.target.value)}
                       required
+                      className="border-gray-300 focus:ring-[#FF6B6B]/50 focus:border-[#FF6B6B]"
                     />
                   </div>
-                  <Button type="submit" className="w-full" disabled={loading}>
+                  <Button type="submit" className="w-full py-3" disabled={loading}>
                     {loading ? "Signing in..." : "Sign In"}
                   </Button>
                 </form>
               </TabsContent>
 
+              {/* Sign Up Form */}
               <TabsContent value="signup">
-                <form onSubmit={handleSignUp} className="space-y-4">
-                  <div className="space-y-2">
+                <form onSubmit={handleSignUp} className="space-y-5">
+                  <div className="space-y-1">
                     <Label htmlFor="signup-email">Email</Label>
                     <Input
                       id="signup-email"
@@ -144,9 +136,10 @@ const Auth = () => {
                       value={email}
                       onChange={(e) => setEmail(e.target.value)}
                       required
+                      className="border-gray-300 focus:ring-[#6C63FF]/50 focus:border-[#6C63FF]"
                     />
                   </div>
-                  <div className="space-y-2">
+                  <div className="space-y-1">
                     <Label htmlFor="signup-password">Password</Label>
                     <Input
                       id="signup-password"
@@ -155,9 +148,10 @@ const Auth = () => {
                       onChange={(e) => setPassword(e.target.value)}
                       required
                       minLength={6}
+                      className="border-gray-300 focus:ring-[#6C63FF]/50 focus:border-[#6C63FF]"
                     />
                   </div>
-                  <Button type="submit" className="w-full" disabled={loading}>
+                  <Button type="submit" className="w-full py-3" disabled={loading}>
                     {loading ? "Creating account..." : "Create Account"}
                   </Button>
                 </form>
@@ -165,6 +159,11 @@ const Auth = () => {
             </Tabs>
           </CardContent>
         </Card>
+
+        {/* Footer Links */}
+        <p className="text-center text-gray-500 mt-4 text-sm">
+          Back to <Link to="/" className="text-[#FF6B6B] font-medium">Home</Link>
+        </p>
       </div>
     </div>
   );

@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Human Anatomy and Physiology",
+    "description": "Comprehensive guide to the human body’s structure and function.",
+    "link": "https://www.khanacademy.org/science/health-and-medicine/human-anatomy-and-physiology",
+    "type": "video",
+    "category": "health and medicine",
+    "tags": ["anatomy", "physiology", "biology"]
+  },
+  {
+    "name": "Introduction to Public Health",
+    "description": "Learn how public health improves population wellbeing through policy and prevention.",
+    "link": "https://www.coursera.org/learn/foundations-of-public-health-practice",
+    "type": "video",
+    "category": "health and medicine",
+    "tags": ["public health", "epidemiology", "policy"]
+  },
+  {
+    "name": "Nutrition and Metabolism",
+    "description": "Understand how diet and metabolism affect human health and disease.",
+    "link": "https://ocw.mit.edu/courses/biology/7-341-nutrition-and-metabolism-fall-2014/",
+    "type": "article",
+    "category": "health and medicine",
+    "tags": ["nutrition", "metabolism", "health"]
+  },
+  {
+    "name": "Microbiology and Immunology",
+    "description": "Study microorganisms and immune system functions.",
+    "link": "https://open.umn.edu/opentextbooks/textbooks/microbiology",
+    "type": "article",
+    "category": "health and medicine",
+    "tags": ["microbiology", "immunity", "infection"]
+  },
+  {
+    "name": "Pharmacology Essentials",
+    "description": "Introduction to drug actions, mechanisms, and therapeutic uses.",
+    "link": "https://www.khanacademy.org/science/health-and-medicine/pharmacology",
+    "type": "video",
+    "category": "health and medicine",
+    "tags": ["pharmacology", "drugs", "therapy"]
+  },
+  {
+    "name": "Epidemiology Fundamentals",
+    "description": "Learn how to study, analyze, and interpret health data in populations.",
+    "link": "https://www.coursera.org/learn/epidemiology",
+    "type": "video",
+    "category": "health and medicine",
+    "tags": ["epidemiology", "data", "disease"]
+  },
+  {
+    "name": "Mental Health and Wellbeing",
+    "description": "Understand mental disorders and strategies for promoting psychological health.",
+    "link": "https://www.futurelearn.com/courses/mental-health-awareness",
+    "type": "video",
+    "category": "health and medicine",
+    "tags": ["mental health", "psychology", "wellbeing"]
+  },
+  {
+    "name": "Pathophysiology",
+    "description": "Study the physiological processes associated with disease.",
+    "link": "https://openstax.org/books/anatomy-and-physiology/pages/1-introduction",
+    "type": "article",
+    "category": "health and medicine",
+    "tags": ["pathology", "disease", "diagnosis"]
+  },
+  {
+    "name": "Global Health Issues",
+    "description": "Examine global health systems and challenges like pandemics and inequities.",
+    "link": "https://www.coursera.org/learn/global-health",
+    "type": "video",
+    "category": "health and medicine",
+    "tags": ["global health", "public health", "pandemics"]
+  },
+  {
+    "name": "Genetics in Medicine",
+    "description": "Explore how genetics and genomics influence medical diagnosis and treatment.",
+    "link": "https://www.genome.gov/about-genomics/fact-sheets/Genetics-vs-Genomics",
+    "type": "article",
+    "category": "health and medicine",
+    "tags": ["genetics", "genomics", "medicine"]
+  },
+  {
+    "name": "Clinical Research Design",
+    "description": "Learn the principles of clinical trials and evidence-based practice.",
+    "link": "https://www.coursera.org/learn/clinical-research",
+    "type": "video",
+    "category": "health and medicine",
+    "tags": ["research", "clinical", "methodology"]
+  },
+  {
+    "name": "Healthcare Management",
+    "description": "Discover how to manage hospitals, policies, and healthcare systems efficiently.",
+    "link": "https://www.edx.org/learn/healthcare-management",
+    "type": "video",
+    "category": "health and medicine",
+    "tags": ["management", "healthcare", "administration"]
+  },
+  {
+    "name": "First Aid and Emergency Care",
+    "description": "Practical guide to handling medical emergencies and first aid.",
+    "link": "https://www.redcross.org/take-a-class/first-aid",
+    "type": "article",
+    "category": "health and medicine",
+    "tags": ["first aid", "emergency", "safety"]
+  },
+  {
+    "name": "Medical Ethics",
+    "description": "Study ethical issues in clinical practice, research, and healthcare.",
+    "link": "https://plato.stanford.edu/entries/ethics-medical/",
+    "type": "article",
+    "category": "health and medicine",
+    "tags": ["ethics", "law", "medicine"]
+  },
+  {
+    "name": "Evidence-Based Medicine",
+    "description": "Learn how to apply clinical research findings to patient care.",
+    "link": "https://ebm.bmj.com/",
+    "type": "article",
+    "category": "health and medicine",
+    "tags": ["evidence-based", "research", "practice"]
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Introduction to Computer Science (CS50)",
+    "description": "Harvard’s legendary CS50 course introducing algorithms, data structures, and programming fundamentals.",
+    "link": "https://cs50.harvard.edu/x/",
+    "type": "video",
+    "category": "computer science",
+    "tags": ["programming", "algorithms", "data structures", "C", "Python"]
+  },
+  {
+    "name": "Algorithms, Part I",
+    "description": "Learn the essential algorithms and data structures for problem-solving and efficient computing.",
+    "link": "https://www.coursera.org/learn/algorithms-part1",
+    "type": "video",
+    "category": "computer science",
+    "tags": ["algorithms", "data structures", "problem solving"]
+  },
+  {
+    "name": "Operating Systems and You",
+    "description": "Understand how operating systems work and how to interact with them using Linux.",
+    "link": "https://www.coursera.org/learn/os-power-user",
+    "type": "video",
+    "category": "computer science",
+    "tags": ["linux", "systems", "operating systems"]
+  },
+  {
+    "name": "Computer Networks",
+    "description": "Learn how the Internet works, from IP addressing to routing and data transmission.",
+    "link": "https://www.khanacademy.org/computing/computer-science/computers-and-internet",
+    "type": "article",
+    "category": "computer science",
+    "tags": ["networking", "internet", "protocols", "data"]
+  },
+  {
+    "name": "Introduction to Databases",
+    "description": "Learn SQL, relational models, and database design with practical examples.",
+    "link": "https://www.stanfordonline.org/courses/db-introduction-databases",
+    "type": "video",
+    "category": "computer science",
+    "tags": ["database", "SQL", "data management"]
+  },
+  {
+    "name": "Artificial Intelligence Foundations",
+    "description": "A broad introduction to modern AI, including search, logic, and machine learning basics.",
+    "link": "https://www.edx.org/course/artificial-intelligence-ai",
+    "type": "video",
+    "category": "computer science",
+    "tags": ["AI", "machine learning", "search algorithms"]
+  },
+  {
+    "name": "Software Engineering Principles",
+    "description": "Explore software design, testing, maintenance, and agile methodologies.",
+    "link": "https://www.coursera.org/specializations/software-engineering",
+    "type": "article",
+    "category": "computer science",
+    "tags": ["software", "engineering", "agile", "design"]
+  },
+  {
+    "name": "Computer Architecture",
+    "description": "Understand CPU design, memory hierarchy, and the hardware-software interface.",
+    "link": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2017/",
+    "type": "video",
+    "category": "computer science",
+    "tags": ["architecture", "hardware", "CPU", "memory"]
+  },
+  {
+    "name": "Human-Computer Interaction",
+    "description": "Study how users interact with technology and how to design user-friendly systems.",
+    "link": "https://www.coursera.org/learn/hci",
+    "type": "article",
+    "category": "computer science",
+    "tags": ["HCI", "UX", "UI", "interaction design"]
+  },
+  {
+    "name": "Cybersecurity Fundamentals",
+    "description": "Learn about encryption, threats, and secure computing systems.",
+    "link": "https://www.coursera.org/specializations/intro-cyber-security",
+    "type": "video",
+    "category": "computer science",
+    "tags": ["security", "encryption", "cybersecurity"]
+  },
+  {
+    "name": "Data Science and Analysis with Python",
+    "description": "Learn how to use Python, Pandas, and NumPy to analyze data and visualize insights.",
+    "link": "https://www.datacamp.com/tracks/data-scientist-with-python",
+    "type": "article",
+    "category": "computer science",
+    "tags": ["data science", "python", "analytics", "statistics"]
+  },
+  {
+    "name": "Deep Learning Specialization",
+    "description": "Master neural networks, CNNs, RNNs, and advanced AI applications.",
+    "link": "https://www.coursera.org/specializations/deep-learning",
+    "type": "video",
+    "category": "computer science",
+    "tags": ["deep learning", "neural networks", "AI", "machine learning"]
+  },
+  {
+    "name": "Computer Graphics",
+    "description": "Learn the principles of computer graphics, rendering, and 3D transformations.",
+    "link": "https://www.edx.org/course/computer-graphics",
+    "type": "video",
+    "category": "computer science",
+    "tags": ["graphics", "rendering", "3D", "visualization"]
+  },
+  {
+    "name": "Theory of Computation",
+    "description": "Dive into automata theory, Turing machines, and computational complexity.",
+    "link": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-045j-automata-computability-and-complexity-spring-2011/",
+    "type": "article",
+    "category": "computer science",
+    "tags": ["theory", "computation", "complexity", "automata"]
+  },
+  {
+    "name": "Parallel and Distributed Computing",
+    "description": "Understand how large-scale systems and cloud-based infrastructures process data concurrently.",
+    "link": "https://www.coursera.org/learn/parallel-distributed-computing",
+    "type": "video",
+    "category": "computer science",
+    "tags": ["parallel computing", "cloud", "distributed systems"]
+  }
+]

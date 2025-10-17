@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Introduction to Psychology",
+    "description": "Explore the scientific study of mind and behavior, including perception, learning, and memory.",
+    "link": "https://www.khanacademy.org/psychology",
+    "type": "video",
+    "category": "social science",
+    "tags": ["psychology", "behavior", "mind"]
+  },
+  {
+    "name": "Principles of Sociology",
+    "description": "Learn how societies are structured and how individuals interact within them.",
+    "link": "https://openstax.org/books/introduction-sociology/pages/1-introduction",
+    "type": "article",
+    "category": "social science",
+    "tags": ["sociology", "society", "culture"]
+  },
+  {
+    "name": "Introduction to Political Science",
+    "description": "Study political systems, governance, and public policy.",
+    "link": "https://oyc.yale.edu/political-science/plsc-114",
+    "type": "video",
+    "category": "social science",
+    "tags": ["politics", "governance", "policy"]
+  },
+  {
+    "name": "Economics for Beginners",
+    "description": "Understand supply, demand, markets, and how economies function.",
+    "link": "https://www.khanacademy.org/economics-finance-domain/microeconomics",
+    "type": "video",
+    "category": "social science",
+    "tags": ["economics", "microeconomics", "markets"]
+  },
+  {
+    "name": "Cultural Anthropology",
+    "description": "Examine how cultures shape human experience and social behavior.",
+    "link": "https://open.umn.edu/opentextbooks/textbooks/cultural-anthropology",
+    "type": "article",
+    "category": "social science",
+    "tags": ["anthropology", "culture", "society"]
+  },
+  {
+    "name": "Human Geography",
+    "description": "Study human populations, urban development, and spatial organization.",
+    "link": "https://openstax.org/books/human-geography/pages/1-introduction",
+    "type": "article",
+    "category": "social science",
+    "tags": ["geography", "urban", "population"]
+  },
+  {
+    "name": "International Relations Basics",
+    "description": "Understand global politics, diplomacy, and international organizations.",
+    "link": "https://www.coursera.org/learn/international-relations",
+    "type": "video",
+    "category": "social science",
+    "tags": ["international relations", "diplomacy", "global"]
+  },
+  {
+    "name": "Social Psychology",
+    "description": "Discover how individuals' thoughts, feelings, and behaviors are influenced by others.",
+    "link": "https://nobaproject.com/modules/social-psychology",
+    "type": "article",
+    "category": "social science",
+    "tags": ["psychology", "social behavior", "group dynamics"]
+  },
+  {
+    "name": "Research Methods in Social Sciences",
+    "description": "Learn how to design, conduct, and analyze social science research.",
+    "link": "https://open.umn.edu/opentextbooks/textbooks/social-science-research-principles-methods-and-practices",
+    "type": "article",
+    "category": "social science",
+    "tags": ["research", "methodology", "data"]
+  },
+  {
+    "name": "Development Studies",
+    "description": "Explore issues in economic development, poverty, and globalization.",
+    "link": "https://www.coursera.org/learn/global-development",
+    "type": "video",
+    "category": "social science",
+    "tags": ["development", "economics", "globalization"]
+  },
+  {
+    "name": "Public Administration",
+    "description": "Understand how government institutions implement policies and serve citizens.",
+    "link": "https://www.coursera.org/learn/public-administration",
+    "type": "video",
+    "category": "social science",
+    "tags": ["administration", "policy", "governance"]
+  },
+  {
+    "name": "Criminology and Criminal Justice",
+    "description": "Study crime, law enforcement, and the criminal justice system.",
+    "link": "https://open.umn.edu/opentextbooks/textbooks/introduction-to-criminal-justice",
+    "type": "article",
+    "category": "social science",
+    "tags": ["criminology", "law", "justice"]
+  },
+  {
+    "name": "Behavioral Economics",
+    "description": "Learn how psychological insights influence economic decision-making.",
+    "link": "https://www.coursera.org/learn/behavioral-economics",
+    "type": "video",
+    "category": "social science",
+    "tags": ["behavioral science", "economics", "decision-making"]
+  },
+  {
+    "name": "Gender and Society",
+    "description": "Explore gender roles, inequality, and cultural representations of gender.",
+    "link": "https://ocw.mit.edu/courses/womens-and-gender-studies/",
+    "type": "article",
+    "category": "social science",
+    "tags": ["gender", "society", "equality"]
+  },
+  {
+    "name": "Urban Sociology",
+    "description": "Investigate how urban environments shape human interactions and communities.",
+    "link": "https://www.coursera.org/learn/urban-sociology",
+    "type": "video",
+    "category": "social science",
+    "tags": ["urban", "sociology", "cities"]
+  }
+]
