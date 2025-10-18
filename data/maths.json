@@ -1,132 +1,137 @@
-{
-  "mathematics_resources": {
-    "undergraduate": [
-      {
-        "name": "College Algebra Essentials",
-        "description": "Covers equations, inequalities, functions, and graphing for first-year students.",
-        "link": "https://www.khanacademy.org/math/college-algebra",
-        "type": "video",
-        "category": "mathematics",
-        "tags": ["algebra", "functions", "undergraduate"]
-      },
-      {
-        "name": "Calculus I – Differentiation and Integration",
-        "description": "Introduction to limits, derivatives, and integrals for STEM majors.",
-        "link": "https://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/",
-        "type": "video",
-        "category": "mathematics",
-        "tags": ["calculus", "derivatives", "integrals"]
-      },
-      {
-        "name": "Introductory Statistics",
-        "description": "Understanding data analysis, probability, and statistical inference.",
-        "link": "https://www.edx.org/course/introduction-to-statistics-descriptive-statistics",
-        "type": "video",
-        "category": "mathematics",
-        "tags": ["statistics", "probability", "data"]
-      },
-      {
-        "name": "Linear Algebra Foundations",
-        "description": "Covers matrices, determinants, and eigenvalues with real-world applications.",
-        "link": "https://www.khanacademy.org/math/linear-algebra",
-        "type": "video",
-        "category": "mathematics",
-        "tags": ["linear algebra", "vectors", "matrices"]
-      },
-      {
-        "name": "Discrete Mathematics for Computer Science",
-        "description": "Sets, logic, algorithms, and graph theory for CS and math students.",
-        "link": "https://www.coursera.org/learn/discrete-mathematics",
-        "type": "video",
-        "category": "mathematics",
-        "tags": ["discrete", "logic", "algorithms"]
-      }
-    ],
-
-    "masters": [
-      {
-        "name": "Advanced Linear Algebra",
-        "description": "Explores abstract vector spaces, transformations, and diagonalization.",
-        "link": "https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/",
-        "type": "video",
-        "category": "mathematics",
-        "tags": ["linear algebra", "advanced", "transformations"]
-      },
-      {
-        "name": "Mathematical Modeling and Simulation",
-        "description": "Learn to model and solve real-world problems using mathematical tools.",
-        "link": "https://www.comap.com/",
-        "type": "article",
-        "category": "mathematics",
-        "tags": ["modeling", "simulation", "applied mathematics"]
-      },
-      {
-        "name": "Applied Probability and Stochastic Processes",
-        "description": "Stochastic modeling and probabilistic systems analysis.",
-        "link": "https://www.edx.org/course/stochastic-processes-theory-and-applications",
-        "type": "video",
-        "category": "mathematics",
-        "tags": ["stochastic", "probability", "processes"]
-      },
-      {
-        "name": "Partial Differential Equations (PDEs)",
-        "description": "Analytical and numerical methods for solving PDEs in physics and engineering.",
-        "link": "https://www.khanacademy.org/math/differential-equations",
-        "type": "video",
-        "category": "mathematics",
-        "tags": ["pdes", "numerical analysis", "advanced"]
-      },
-      {
-        "name": "Numerical Linear Algebra",
-        "description": "Matrix factorizations and algorithms for scientific computation.",
-        "link": "https://www-users.cs.umn.edu/~saad/IterMethBook_2ndEd.pdf",
-        "type": "pdf",
-        "category": "mathematics",
-        "tags": ["numerical methods", "linear algebra", "algorithms"]
-      }
-    ],
-
-    "postgraduate": [
-      {
-        "name": "Functional Analysis and Hilbert Spaces",
-        "description": "Covers Banach spaces, Hilbert spaces, and linear operators for advanced research.",
-        "link": "https://ocw.mit.edu/courses/mathematics/18-102-introduction-to-functional-analysis-spring-2020/",
-        "type": "video",
-        "category": "mathematics",
-        "tags": ["functional analysis", "hilbert spaces", "postgraduate"]
-      },
-      {
-        "name": "Advanced Complex Analysis",
-        "description": "Analytic functions, contour integration, and conformal mappings.",
-        "link": "https://ocw.mit.edu/courses/mathematics/18-112-functions-of-a-complex-variable-fall-2012/",
-        "type": "video",
-        "category": "mathematics",
-        "tags": ["complex analysis", "advanced", "research"]
-      },
-      {
-        "name": "Topology for Research Mathematicians",
-        "description": "Explores continuity, compactness, and topological spaces for modern analysis.",
-        "link": "https://www.cambridge.org/core/books/introduction-to-topology/6C8B919BFAA3B7DB3DDAA9EACF2F9A34",
-        "type": "article",
-        "category": "mathematics",
-        "tags": ["topology", "abstract", "research"]
-      },
-      {
-        "name": "Advanced Statistical Theory",
-        "description": "Measure theory, likelihood estimation, and hypothesis testing at a deep level.",
-        "link": "https://www.stat.cmu.edu/~larry/=stat705/",
-        "type": "pdf",
-        "category": "mathematics",
-        "tags": ["statistics", "theory", "advanced"]
-      },
-      {
-        "name": "Research in Mathematical Logic",
-        "description": "Advanced proof theory, model theory, and applications to computation.",
-        "link": "https://plato.stanford.edu/entries/logic-mathematics/",
-        "type": "article",
-        "category": "mathematics",
-        "tags": ["logic", "proof theory", "computation"]
-      }
-    ]
+[
+  {
+    "name": "College Algebra Essentials",
+    "description": "Covers equations, inequalities, functions, and graphing for first-year students.",
+    "link": "https://www.khanacademy.org/math/college-algebra",
+    "type": "video",
+    "category": "mathematics",
+    "level": "Undergraduate",
+    "tags": ["algebra", "functions", "undergraduate"]
+  },
+  {
+    "name": "Calculus I – Differentiation and Integration",
+    "description": "Introduction to limits, derivatives, and integrals for STEM majors.",
+    "link": "https://ocw.mit.edu/courses/mathematics/18-01sc-single-variable-calculus-fall-2010/",
+    "type": "video",
+    "category": "mathematics",
+    "level": "Undergraduate",
+    "tags": ["calculus", "derivatives", "integrals"]
+  },
+  {
+    "name": "Introductory Statistics",
+    "description": "Understanding data analysis, probability, and statistical inference.",
+    "link": "https://www.edx.org/course/introduction-to-statistics-descriptive-statistics",
+    "type": "video",
+    "category": "mathematics",
+    "level": "Undergraduate",
+    "tags": ["statistics", "probability", "data"]
+  },
+  {
+    "name": "Linear Algebra Foundations",
+    "description": "Covers matrices, determinants, and eigenvalues with real-world applications.",
+    "link": "https://www.khanacademy.org/math/linear-algebra",
+    "type": "video",
+    "category": "mathematics",
+    "level": "Undergraduate",
+    "tags": ["linear algebra", "vectors", "matrices"]
+  },
+  {
+    "name": "Discrete Mathematics for Computer Science",
+    "description": "Sets, logic, algorithms, and graph theory for CS and math students.",
+    "link": "https://www.coursera.org/learn/discrete-mathematics",
+    "type": "video",
+    "category": "mathematics",
+    "level": "Undergraduate",
+    "tags": ["discrete", "logic", "algorithms"]
+  },
+  {
+    "name": "Advanced Linear Algebra",
+    "description": "Explores abstract vector spaces, transformations, and diagonalization.",
+    "link": "https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/",
+    "type": "video",
+    "category": "mathematics",
+    "level": "Masters",
+    "tags": ["linear algebra", "advanced", "transformations"]
+  },
+  {
+    "name": "Mathematical Modeling and Simulation",
+    "description": "Learn to model and solve real-world problems using mathematical tools.",
+    "link": "https://www.comap.com/",
+    "type": "article",
+    "category": "mathematics",
+    "level": "Masters",
+    "tags": ["modeling", "simulation", "applied mathematics"]
+  },
+  {
+    "name": "Applied Probability and Stochastic Processes",
+    "description": "Stochastic modeling and probabilistic systems analysis.",
+    "link": "https://www.edx.org/course/stochastic-processes-theory-and-applications",
+    "type": "video",
+    "category": "mathematics",
+    "level": "Masters",
+    "tags": ["stochastic", "probability", "processes"]
+  },
+  {
+    "name": "Partial Differential Equations (PDEs)",
+    "description": "Analytical and numerical methods for solving PDEs in physics and engineering.",
+    "link": "https://www.khanacademy.org/math/differential-equations",
+    "type": "video",
+    "category": "mathematics",
+    "level": "Masters",
+    "tags": ["pdes", "numerical analysis", "advanced"]
+  },
+  {
+    "name": "Numerical Linear Algebra",
+    "description": "Matrix factorizations and algorithms for scientific computation.",
+    "link": "https://www-users.cs.umn.edu/~saad/IterMethBook_2ndEd.pdf",
+    "type": "pdf",
+    "category": "mathematics",
+    "level": "Masters",
+    "tags": ["numerical methods", "linear algebra", "algorithms"]
+  },
+  {
+    "name": "Functional Analysis and Hilbert Spaces",
+    "description": "Covers Banach spaces, Hilbert spaces, and linear operators for advanced research.",
+    "link": "https://ocw.mit.edu/courses/mathematics/18-102-introduction-to-functional-analysis-spring-2020/",
+    "type": "video",
+    "category": "mathematics",
+    "level": "Postgraduate",
+    "tags": ["functional analysis", "hilbert spaces", "postgraduate"]
+  },
+  {
+    "name": "Advanced Complex Analysis",
+    "description": "Analytic functions, contour integration, and conformal mappings.",
+    "link": "https://ocw.mit.edu/courses/mathematics/18-112-functions-of-a-complex-variable-fall-2012/",
+    "type": "video",
+    "category": "mathematics",
+    "level": "Postgraduate",
+    "tags": ["complex analysis", "advanced", "research"]
+  },
+  {
+    "name": "Topology for Research Mathematicians",
+    "description": "Explores continuity, compactness, and topological spaces for modern analysis.",
+    "link": "https://www.cambridge.org/core/books/introduction-to-topology/6C8B919BFAA3B7DB3DDAA9EACF2F9A34",
+    "type": "article",
+    "category": "mathematics",
+    "level": "Postgraduate",
+    "tags": ["topology", "abstract", "research"]
+  },
+  {
+    "name": "Advanced Statistical Theory",
+    "description": "Measure theory, likelihood estimation, and hypothesis testing at a deep level.",
+    "link": "https://www.stat.cmu.edu/~larry/=stat705/",
+    "type": "pdf",
+    "category": "mathematics",
+    "level": "Postgraduate",
+    "tags": ["statistics", "theory", "advanced"]
+  },
+  {
+    "name": "Research in Mathematical Logic",
+    "description": "Advanced proof theory, model theory, and applications to computation.",
+    "link": "https://plato.stanford.edu/entries/logic-mathematics/",
+    "type": "article",
+    "category": "mathematics",
+    "level": "Postgraduate",
+    "tags": ["logic", "proof theory", "computation"]
   }
-}
+]

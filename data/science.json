@@ -1,132 +1,137 @@
-{
-  "science_resources": {
-    "undergraduate": [
-      {
-        "name": "Introduction to Physics",
-        "description": "Covers basic mechanics, motion, and Newton's laws for first-year students.",
-        "link": "https://www.khanacademy.org/science/physics",
-        "type": "video",
-        "category": "science",
-        "tags": ["physics", "mechanics", "motion"]
-      },
-      {
-        "name": "Chemistry Fundamentals",
-        "description": "Atoms, elements, reactions, and the periodic table explained simply.",
-        "link": "https://www.khanacademy.org/science/chemistry",
-        "type": "video",
-        "category": "science",
-        "tags": ["chemistry", "atoms", "elements"]
-      },
-      {
-        "name": "Introduction to Biology",
-        "description": "Explore cells, genetics, and biological systems.",
-        "link": "https://www.khanacademy.org/science/biology",
-        "type": "video",
-        "category": "science",
-        "tags": ["biology", "cells", "life science"]
-      },
-      {
-        "name": "Earth and Environmental Science",
-        "description": "Learn about ecosystems, sustainability, and human impact on Earth.",
-        "link": "https://www.edx.org/learn/environmental-science",
-        "type": "video",
-        "category": "science",
-        "tags": ["environment", "ecology", "sustainability"]
-      },
-      {
-        "name": "Scientific Research Basics",
-        "description": "Understand how to design, conduct, and analyze scientific experiments.",
-        "link": "https://www.sciencebuddies.org/science-fair-projects/science-fair/steps-of-the-scientific-method",
-        "type": "article",
-        "category": "science",
-        "tags": ["research", "methodology", "experiments"]
-      }
-    ],
-
-    "masters": [
-      {
-        "name": "Advanced Physics and Thermodynamics",
-        "description": "Covers thermodynamics, statistical mechanics, and modern physics.",
-        "link": "https://ocw.mit.edu/courses/physics/8-044-statistical-physics-i-spring-2013/",
-        "type": "video",
-        "category": "science",
-        "tags": ["thermodynamics", "energy", "advanced physics"]
-      },
-      {
-        "name": "Organic and Inorganic Chemistry",
-        "description": "A detailed look at molecular bonding, structures, and chemical synthesis.",
-        "link": "https://www.coursera.org/learn/organic-chemistry",
-        "type": "video",
-        "category": "science",
-        "tags": ["chemistry", "organic", "inorganic"]
-      },
-      {
-        "name": "Advanced Environmental Systems",
-        "description": "Modeling ecological systems and understanding global environmental issues.",
-        "link": "https://www.edx.org/learn/environmental-management",
-        "type": "article",
-        "category": "science",
-        "tags": ["ecology", "systems", "sustainability"]
-      },
-      {
-        "name": "Molecular Biology and Genetics",
-        "description": "Study DNA replication, gene expression, and biotechnological advances.",
-        "link": "https://www.khanacademy.org/science/biology/heredity",
-        "type": "video",
-        "category": "science",
-        "tags": ["molecular biology", "genetics", "DNA"]
-      },
-      {
-        "name": "Quantum Mechanics Basics",
-        "description": "An intermediate course in quantum concepts, wave functions, and atomic theory.",
-        "link": "https://ocw.mit.edu/courses/physics/8-04-quantum-physics-i-spring-2016/",
-        "type": "video",
-        "category": "science",
-        "tags": ["quantum", "physics", "wave theory"]
-      }
-    ],
-
-    "postgraduate": [
-      {
-        "name": "Quantum Field Theory and Advanced Physics",
-        "description": "Deep dive into particle physics and field theory for researchers.",
-        "link": "https://ocw.mit.edu/courses/physics/8-323-relativistic-quantum-field-theory-i-fall-2008/",
-        "type": "video",
-        "category": "science",
-        "tags": ["quantum field theory", "relativity", "advanced"]
-      },
-      {
-        "name": "Neuroscience and Cognitive Systems",
-        "description": "Research-level study of brain systems, neural networks, and cognition.",
-        "link": "https://www.coursera.org/learn/computational-neuroscience",
-        "type": "video",
-        "category": "science",
-        "tags": ["neuroscience", "cognition", "brain"]
-      },
-      {
-        "name": "Advanced Biochemistry and Molecular Mechanisms",
-        "description": "Focus on enzymes, protein folding, and cellular processes.",
-        "link": "https://ocw.mit.edu/courses/biology/7-51-graduate-biochemistry-fall-2001/",
-        "type": "video",
-        "category": "science",
-        "tags": ["biochemistry", "enzymes", "molecular biology"]
-      },
-      {
-        "name": "Climate Science and Earth Systems Research",
-        "description": "Advanced models of climate dynamics and environmental prediction.",
-        "link": "https://climate.nasa.gov/",
-        "type": "article",
-        "category": "science",
-        "tags": ["climate", "modeling", "earth science"]
-      },
-      {
-        "name": "Astrophysics and Cosmology",
-        "description": "Exploration of stars, galaxies, and the structure of the universe.",
-        "link": "https://www.coursera.org/learn/astronomy",
-        "type": "video",
-        "category": "science",
-        "tags": ["astrophysics", "cosmology", "space"]
-      }
-    ]
+[
+  {
+    "name": "Introduction to Physics",
+    "description": "Covers basic mechanics, motion, and Newton's laws for first-year students.",
+    "link": "https://www.khanacademy.org/science/physics",
+    "type": "video",
+    "category": "science",
+    "level": "undergraduate",
+    "tags": ["physics", "mechanics", "motion"]
+  },
+  {
+    "name": "Chemistry Fundamentals",
+    "description": "Atoms, elements, reactions, and the periodic table explained simply.",
+    "link": "https://www.khanacademy.org/science/chemistry",
+    "type": "video",
+    "category": "science",
+    "level": "undergraduate",
+    "tags": ["chemistry", "atoms", "elements"]
+  },
+  {
+    "name": "Introduction to Biology",
+    "description": "Explore cells, genetics, and biological systems.",
+    "link": "https://www.khanacademy.org/science/biology",
+    "type": "video",
+    "category": "science",
+    "level": "undergraduate",
+    "tags": ["biology", "cells", "life science"]
+  },
+  {
+    "name": "Earth and Environmental Science",
+    "description": "Learn about ecosystems, sustainability, and human impact on Earth.",
+    "link": "https://www.edx.org/learn/environmental-science",
+    "type": "video",
+    "category": "science",
+    "level": "undergraduate",
+    "tags": ["environment", "ecology", "sustainability"]
+  },
+  {
+    "name": "Scientific Research Basics",
+    "description": "Understand how to design, conduct, and analyze scientific experiments.",
+    "link": "https://www.sciencebuddies.org/science-fair-projects/science-fair/steps-of-the-scientific-method",
+    "type": "article",
+    "category": "science",
+    "level": "undergraduate",
+    "tags": ["research", "methodology", "experiments"]
+  },
+  {
+    "name": "Advanced Physics and Thermodynamics",
+    "description": "Covers thermodynamics, statistical mechanics, and modern physics.",
+    "link": "https://ocw.mit.edu/courses/physics/8-044-statistical-physics-i-spring-2013/",
+    "type": "video",
+    "category": "science",
+    "level": "masters",
+    "tags": ["thermodynamics", "energy", "advanced physics"]
+  },
+  {
+    "name": "Organic and Inorganic Chemistry",
+    "description": "A detailed look at molecular bonding, structures, and chemical synthesis.",
+    "link": "https://www.coursera.org/learn/organic-chemistry",
+    "type": "video",
+    "category": "science",
+    "level": "masters",
+    "tags": ["chemistry", "organic", "inorganic"]
+  },
+  {
+    "name": "Advanced Environmental Systems",
+    "description": "Modeling ecological systems and understanding global environmental issues.",
+    "link": "https://www.edx.org/learn/environmental-management",
+    "type": "article",
+    "category": "science",
+    "level": "masters",
+    "tags": ["ecology", "systems", "sustainability"]
+  },
+  {
+    "name": "Molecular Biology and Genetics",
+    "description": "Study DNA replication, gene expression, and biotechnological advances.",
+    "link": "https://www.khanacademy.org/science/biology/heredity",
+    "type": "video",
+    "category": "science",
+    "level": "masters",
+    "tags": ["molecular biology", "genetics", "DNA"]
+  },
+  {
+    "name": "Quantum Mechanics Basics",
+    "description": "An intermediate course in quantum concepts, wave functions, and atomic theory.",
+    "link": "https://ocw.mit.edu/courses/physics/8-04-quantum-physics-i-spring-2016/",
+    "type": "video",
+    "category": "science",
+    "level": "masters",
+    "tags": ["quantum", "physics", "wave theory"]
+  },
+  {
+    "name": "Quantum Field Theory and Advanced Physics",
+    "description": "Deep dive into particle physics and field theory for researchers.",
+    "link": "https://ocw.mit.edu/courses/physics/8-323-relativistic-quantum-field-theory-i-fall-2008/",
+    "type": "video",
+    "category": "science",
+    "level": "postgraduate",
+    "tags": ["quantum field theory", "relativity", "advanced"]
+  },
+  {
+    "name": "Neuroscience and Cognitive Systems",
+    "description": "Research-level study of brain systems, neural networks, and cognition.",
+    "link": "https://www.coursera.org/learn/computational-neuroscience",
+    "type": "video",
+    "category": "science",
+    "level": "postgraduate",
+    "tags": ["neuroscience", "cognition", "brain"]
+  },
+  {
+    "name": "Advanced Biochemistry and Molecular Mechanisms",
+    "description": "Focus on enzymes, protein folding, and cellular processes.",
+    "link": "https://ocw.mit.edu/courses/biology/7-51-graduate-biochemistry-fall-2001/",
+    "type": "video",
+    "category": "science",
+    "level": "postgraduate",
+    "tags": ["biochemistry", "enzymes", "molecular biology"]
+  },
+  {
+    "name": "Climate Science and Earth Systems Research",
+    "description": "Advanced models of climate dynamics and environmental prediction.",
+    "link": "https://climate.nasa.gov/",
+    "type": "article",
+    "category": "science",
+    "level": "postgraduate",
+    "tags": ["climate", "modeling", "earth science"]
+  },
+  {
+    "name": "Astrophysics and Cosmology",
+    "description": "Exploration of stars, galaxies, and the structure of the universe.",
+    "link": "https://www.coursera.org/learn/astronomy",
+    "type": "video",
+    "category": "science",
+    "level": "postgraduate",
+    "tags": ["astrophysics", "cosmology", "space"]
   }
-}
+]

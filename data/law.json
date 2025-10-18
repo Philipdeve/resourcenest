@@ -5,6 +5,7 @@
     "link": "https://www.coursera.org/learn/intro-to-law",
     "type": "video",
     "category": "law and governance",
+    "level": "Undergraduate",
     "tags": ["law", "legal systems", "introductory law"]
   },
   {
@@ -13,6 +14,7 @@
     "link": "https://oyc.yale.edu/political-science/plsc-114",
     "type": "video",
     "category": "law and governance",
+    "level": "Undergraduate",
     "tags": ["constitution", "rights", "governance"]
   },
   {
@@ -21,6 +23,7 @@
     "link": "https://www.edx.org/course/international-law",
     "type": "article",
     "category": "law and governance",
+    "level": "Masters",
     "tags": ["international law", "UN", "global policy"]
   },
   {
@@ -29,6 +32,7 @@
     "link": "https://www.coursera.org/learn/criminal-law",
     "type": "video",
     "category": "law and governance",
+    "level": "Undergraduate",
     "tags": ["criminal law", "justice", "law enforcement"]
   },
   {
@@ -37,6 +41,7 @@
     "link": "https://ocw.mit.edu/courses/political-science/17-30j-making-public-policy-fall-2010/",
     "type": "article",
     "category": "law and governance",
+    "level": "Masters",
     "tags": ["policy", "administration", "governance"]
   },
   {
@@ -45,6 +50,7 @@
     "link": "https://www.futurelearn.com/courses/international-human-rights-law",
     "type": "video",
     "category": "law and governance",
+    "level": "Masters",
     "tags": ["human rights", "justice", "law"]
   },
   {
@@ -53,6 +59,7 @@
     "link": "https://www.accaglobal.com/an/en/student/exam-support-resources/fundamentals-exams-study-resources/f4/technical-articles.html",
     "type": "article",
     "category": "law and governance",
+    "level": "Postgraduate",
     "tags": ["corporate law", "contracts", "business law"]
   },
   {
@@ -61,6 +68,7 @@
     "link": "https://online.hbs.edu/courses/sustainable-business-strategy/",
     "type": "article",
     "category": "law and governance",
+    "level": "Postgraduate",
     "tags": ["environmental law", "sustainability", "policy"]
   },
   {
@@ -69,6 +77,7 @@
     "link": "https://www.coursera.org/learn/comparative-law",
     "type": "video",
     "category": "law and governance",
+    "level": "Masters",
     "tags": ["comparative law", "international law", "jurisprudence"]
   },
   {
@@ -77,6 +86,7 @@
     "link": "https://www.edx.org/course/cybersecurity-law-and-policy",
     "type": "video",
     "category": "law and governance",
+    "level": "Postgraduate",
     "tags": ["cyber law", "privacy", "digital governance"]
   },
   {
@@ -85,6 +95,7 @@
     "link": "https://plato.stanford.edu/entries/lawphil-theory/",
     "type": "article",
     "category": "law and governance",
+    "level": "Postgraduate",
     "tags": ["ethics", "jurisprudence", "philosophy"]
   },
   {
@@ -93,6 +104,7 @@
     "link": "https://www.futurelearn.com/courses/public-leadership",
     "type": "video",
     "category": "law and governance",
+    "level": "Masters",
     "tags": ["leadership", "governance", "public service"]
   }
 ]

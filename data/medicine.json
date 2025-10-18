@@ -5,6 +5,7 @@
     "link": "https://www.khanacademy.org/science/health-and-medicine/human-anatomy-and-physiology",
     "type": "video",
     "category": "health and medicine",
+    "level": "Undergraduate",
     "tags": ["anatomy", "physiology", "biology"]
   },
   {
@@ -13,6 +14,7 @@
     "link": "https://www.coursera.org/learn/foundations-of-public-health-practice",
     "type": "video",
     "category": "health and medicine",
+    "level": "Undergraduate",
     "tags": ["public health", "epidemiology", "policy"]
   },
   {
@@ -21,6 +23,7 @@
     "link": "https://ocw.mit.edu/courses/biology/7-341-nutrition-and-metabolism-fall-2014/",
     "type": "article",
     "category": "health and medicine",
+    "level": "Undergraduate",
     "tags": ["nutrition", "metabolism", "health"]
   },
   {
@@ -29,6 +32,7 @@
     "link": "https://open.umn.edu/opentextbooks/textbooks/microbiology",
     "type": "article",
     "category": "health and medicine",
+    "level": "Undergraduate",
     "tags": ["microbiology", "immunity", "infection"]
   },
   {
@@ -37,6 +41,7 @@
     "link": "https://www.khanacademy.org/science/health-and-medicine/pharmacology",
     "type": "video",
     "category": "health and medicine",
+    "level": "Undergraduate",
     "tags": ["pharmacology", "drugs", "therapy"]
   },
   {
@@ -45,6 +50,7 @@
     "link": "https://www.coursera.org/learn/epidemiology",
     "type": "video",
     "category": "health and medicine",
+    "level": "Undergraduate",
     "tags": ["epidemiology", "data", "disease"]
   },
   {
@@ -53,6 +59,7 @@
     "link": "https://www.futurelearn.com/courses/mental-health-awareness",
     "type": "video",
     "category": "health and medicine",
+    "level": "Undergraduate",
     "tags": ["mental health", "psychology", "wellbeing"]
   },
   {
@@ -61,6 +68,7 @@
     "link": "https://openstax.org/books/anatomy-and-physiology/pages/1-introduction",
     "type": "article",
     "category": "health and medicine",
+    "level": "Masters",
     "tags": ["pathology", "disease", "diagnosis"]
   },
   {
@@ -69,6 +77,7 @@
     "link": "https://www.coursera.org/learn/global-health",
     "type": "video",
     "category": "health and medicine",
+    "level": "Masters",
     "tags": ["global health", "public health", "pandemics"]
   },
   {
@@ -77,6 +86,7 @@
     "link": "https://www.genome.gov/about-genomics/fact-sheets/Genetics-vs-Genomics",
     "type": "article",
     "category": "health and medicine",
+    "level": "Masters",
     "tags": ["genetics", "genomics", "medicine"]
   },
   {
@@ -85,6 +95,7 @@
     "link": "https://www.coursera.org/learn/clinical-research",
     "type": "video",
     "category": "health and medicine",
+    "level": "Masters",
     "tags": ["research", "clinical", "methodology"]
   },
   {
@@ -93,6 +104,7 @@
     "link": "https://www.edx.org/learn/healthcare-management",
     "type": "video",
     "category": "health and medicine",
+    "level": "Masters",
     "tags": ["management", "healthcare", "administration"]
   },
   {
@@ -101,6 +113,7 @@
     "link": "https://www.redcross.org/take-a-class/first-aid",
     "type": "article",
     "category": "health and medicine",
+    "level": "Postgraduate",
     "tags": ["first aid", "emergency", "safety"]
   },
   {
@@ -109,6 +122,7 @@
     "link": "https://plato.stanford.edu/entries/ethics-medical/",
     "type": "article",
     "category": "health and medicine",
+    "level": "Postgraduate",
     "tags": ["ethics", "law", "medicine"]
   },
   {
@@ -117,6 +131,7 @@
     "link": "https://ebm.bmj.com/",
     "type": "article",
     "category": "health and medicine",
+    "level": "Postgraduate",
     "tags": ["evidence-based", "research", "practice"]
   }
 ]

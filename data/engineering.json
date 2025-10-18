@@ -4,7 +4,8 @@
     "description": "Core concepts and basics for all engineering disciplines.",
     "link": "https://www.khanacademy.org/science/engineering",
     "type": "video",
-    "category": "undergraduate",
+    "category": "engineering",
+    "level": "undergraduate",
     "tags": ["fundamentals", "introductory", "multidisciplinary"]
   },
   {
@@ -12,7 +13,8 @@
     "description": "Learn thermodynamics, mechanics, and design principles.",
     "link": "https://ocw.mit.edu/courses/mechanical-engineering/",
     "type": "video",
-    "category": "undergraduate",
+    "category": "engineering",
+    "level": "undergraduate",
     "tags": ["mechanical", "physics", "design"]
   },
   {
@@ -20,7 +22,8 @@
     "description": "Circuits, electronics, and power systems foundations.",
     "link": "https://www.allaboutcircuits.com/textbook/",
     "type": "article",
-    "category": "undergraduate",
+    "category": "engineering",
+    "level": "undergraduate",
     "tags": ["electrical", "circuits", "electronics"]
   },
   {
@@ -28,7 +31,8 @@
     "description": "Introduction to civil, construction, and environmental systems.",
     "link": "https://www.ice.org.uk/what-is-civil-engineering",
     "type": "article",
-    "category": "undergraduate",
+    "category": "engineering",
+    "level": "undergraduate",
     "tags": ["civil", "infrastructure", "construction"]
   },
   {
@@ -36,7 +40,8 @@
     "description": "Understand software systems design and application development.",
     "link": "https://www.freecodecamp.org/news/software-engineering/",
     "type": "article",
-    "category": "undergraduate",
+    "category": "engineering",
+    "level": "undergraduate",
     "tags": ["software", "programming", "development"]
   },
   {
@@ -44,7 +49,8 @@
     "description": "Essential mathematical tools for advanced engineering analysis.",
     "link": "https://ocw.mit.edu/courses/mathematics/18-085-computational-science-and-engineering-i-fall-2008/",
     "type": "article",
-    "category": "masters",
+    "category": "engineering",
+    "level": "master",
     "tags": ["mathematics", "modeling", "computation"]
   },
   {
@@ -52,7 +58,8 @@
     "description": "Study numerical techniques for complex systems and materials.",
     "link": "https://ocw.mit.edu/courses/mechanical-engineering/2-092-finite-element-analysis-of-solids-and-fluids-fall-2009/",
     "type": "video",
-    "category": "masters",
+    "category": "engineering",
+    "level": "master",
     "tags": ["finite-element", "simulation", "mechanical"]
   },
   {
@@ -60,7 +67,8 @@
     "description": "Learn how to design and analyze control systems for machines.",
     "link": "https://nptel.ac.in/courses/108105130",
     "type": "video",
-    "category": "masters",
+    "category": "engineering",
+    "level": "master",
     "tags": ["control", "automation", "systems"]
   },
   {
@@ -68,7 +76,8 @@
     "description": "Explore the microstructure, processing, and application of materials.",
     "link": "https://www.materialstoday.com/",
     "type": "article",
-    "category": "masters",
+    "category": "engineering",
+    "level": "master",
     "tags": ["materials", "nanotechnology", "composites"]
   },
   {
@@ -76,7 +85,8 @@
     "description": "Modern approaches to clean energy and environmental systems.",
     "link": "https://www.edx.org/learn/energy",
     "type": "video",
-    "category": "masters",
+    "category": "engineering",
+    "level": "master",
     "tags": ["energy", "renewable", "sustainability"]
   },
   {
@@ -84,7 +94,8 @@
     "description": "Learn advanced methodologies for conducting engineering research.",
     "link": "https://www.coursera.org/learn/research-methods",
     "type": "video",
-    "category": "postgraduate",
+    "category": "engineering",
+    "level": "postgraduate",
     "tags": ["research", "methodology", "academic"]
   },
   {
@@ -92,7 +103,8 @@
     "description": "Machine learning and data science tools for engineering applications.",
     "link": "https://www.coursera.org/learn/data-driven-engineering",
     "type": "video",
-    "category": "postgraduate",
+    "category": "engineering",
+    "level": "postgraduate",
     "tags": ["machine-learning", "data-science", "analytics"]
   },
   {
@@ -100,7 +112,8 @@
     "description": "Explore intelligent robotics and autonomous systems design.",
     "link": "https://robotics.ieee.org/learn/",
     "type": "article",
-    "category": "postgraduate",
+    "category": "engineering",
+    "level": "postgraduate",
     "tags": ["robotics", "AI", "autonomy"]
   },
   {
@@ -108,7 +121,8 @@
     "description": "Advanced modeling of fluid mechanics and heat transfer.",
     "link": "https://ocw.mit.edu/courses/mechanical-engineering/2-29-numerical-fluid-mechanics-sma-5223-fall-2002/",
     "type": "video",
-    "category": "postgraduate",
+    "category": "engineering",
+    "level": "postgraduate",
     "tags": ["CFD", "simulation", "fluids"]
   },
   {
@@ -116,7 +130,8 @@
     "description": "Critical thinking on ethics, innovation, and research responsibility.",
     "link": "https://onlineethics.org/",
     "type": "article",
-    "category": "postgraduate",
+    "category": "engineering",
+    "level": "postgraduate",
     "tags": ["ethics", "innovation", "research"]
   }
 ]
