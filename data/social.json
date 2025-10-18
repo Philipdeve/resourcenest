@@ -5,6 +5,7 @@
     "link": "https://www.khanacademy.org/psychology",
     "type": "video",
     "category": "social science",
+    "level": "undergraduate",
     "tags": ["psychology", "behavior", "mind"]
   },
   {
@@ -13,6 +14,7 @@
     "link": "https://openstax.org/books/introduction-sociology/pages/1-introduction",
     "type": "article",
     "category": "social science",
+    "level": "undergraduate",
     "tags": ["sociology", "society", "culture"]
   },
   {
@@ -21,6 +23,7 @@
     "link": "https://oyc.yale.edu/political-science/plsc-114",
     "type": "video",
     "category": "social science",
+    "level": "undergraduate",
     "tags": ["politics", "governance", "policy"]
   },
   {
@@ -29,6 +32,7 @@
     "link": "https://www.khanacademy.org/economics-finance-domain/microeconomics",
     "type": "video",
     "category": "social science",
+    "level": "undergraduate",
     "tags": ["economics", "microeconomics", "markets"]
   },
   {
@@ -37,6 +41,7 @@
     "link": "https://open.umn.edu/opentextbooks/textbooks/cultural-anthropology",
     "type": "article",
     "category": "social science",
+    "level": "undergraduate",
     "tags": ["anthropology", "culture", "society"]
   },
   {
@@ -45,6 +50,7 @@
     "link": "https://openstax.org/books/human-geography/pages/1-introduction",
     "type": "article",
     "category": "social science",
+    "level": "undergraduate",
     "tags": ["geography", "urban", "population"]
   },
   {
@@ -53,6 +59,7 @@
     "link": "https://www.coursera.org/learn/international-relations",
     "type": "video",
     "category": "social science",
+    "level": "undergraduate",
     "tags": ["international relations", "diplomacy", "global"]
   },
   {
@@ -61,6 +68,7 @@
     "link": "https://nobaproject.com/modules/social-psychology",
     "type": "article",
     "category": "social science",
+    "level": "undergraduate",
     "tags": ["psychology", "social behavior", "group dynamics"]
   },
   {
@@ -69,6 +77,7 @@
     "link": "https://open.umn.edu/opentextbooks/textbooks/social-science-research-principles-methods-and-practices",
     "type": "article",
     "category": "social science",
+    "level": "undergraduate",
     "tags": ["research", "methodology", "data"]
   },
   {
@@ -77,6 +86,7 @@
     "link": "https://www.coursera.org/learn/global-development",
     "type": "video",
     "category": "social science",
+    "level": "undergraduate",
     "tags": ["development", "economics", "globalization"]
   },
   {
@@ -85,6 +95,7 @@
     "link": "https://www.coursera.org/learn/public-administration",
     "type": "video",
     "category": "social science",
+    "level": "undergraduate",
     "tags": ["administration", "policy", "governance"]
   },
   {
@@ -93,6 +104,7 @@
     "link": "https://open.umn.edu/opentextbooks/textbooks/introduction-to-criminal-justice",
     "type": "article",
     "category": "social science",
+    "level": "undergraduate",
     "tags": ["criminology", "law", "justice"]
   },
   {
@@ -101,6 +113,7 @@
     "link": "https://www.coursera.org/learn/behavioral-economics",
     "type": "video",
     "category": "social science",
+    "level": "undergraduate",
     "tags": ["behavioral science", "economics", "decision-making"]
   },
   {
@@ -109,6 +122,7 @@
     "link": "https://ocw.mit.edu/courses/womens-and-gender-studies/",
     "type": "article",
     "category": "social science",
+    "level": "undergraduate",
     "tags": ["gender", "society", "equality"]
   },
   {
@@ -117,6 +131,7 @@
     "link": "https://www.coursera.org/learn/urban-sociology",
     "type": "video",
     "category": "social science",
+    "level": "undergraduate",
     "tags": ["urban", "sociology", "cities"]
   }
 ]

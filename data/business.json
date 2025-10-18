@@ -5,6 +5,7 @@
     "link": "https://openstax.org/books/principles-management/pages/1-introduction",
     "type": "article",
     "category": "business",
+    "level": "undergraduate",
     "tags": ["management", "leadership", "organization"]
   },
   {
@@ -13,6 +14,7 @@
     "link": "https://www.coursera.org/learn/strategic-management",
     "type": "video",
     "category": "business",
+    "level": "postgraduate",
     "tags": ["strategy", "business", "competitive advantage"]
   },
   {
@@ -21,6 +23,7 @@
     "link": "https://www.edx.org/course/financial-accounting",
     "type": "article",
     "category": "business",
+    "level": "undergraduate",
     "tags": ["accounting", "finance", "bookkeeping"]
   },
   {
@@ -29,6 +32,7 @@
     "link": "https://www.coursera.org/learn/marketing-management",
     "type": "video",
     "category": "business",
+    "level": "postgraduate",
     "tags": ["marketing", "branding", "strategy"]
   },
   {
@@ -37,6 +41,7 @@
     "link": "https://online.hbs.edu/courses/entrepreneurship-emerging-economies/",
     "type": "video",
     "category": "business",
+    "level": "master",
     "tags": ["entrepreneurship", "innovation", "startups"]
   },
   {
@@ -45,6 +50,7 @@
     "link": "https://ocw.mit.edu/courses/sloan-school-of-management/15-761-operations-management-spring-2016/",
     "type": "article",
     "category": "management",
+    "level": "postgraduate",
     "tags": ["operations", "logistics", "process improvement"]
   },
   {
@@ -53,6 +59,7 @@
     "link": "https://openstax.org/books/organizational-behavior/pages/1-introduction",
     "type": "article",
     "category": "management",
+    "level": "undergraduate",
     "tags": ["culture", "behavior", "leadership"]
   },
   {
@@ -61,6 +68,7 @@
     "link": "https://www.edx.org/course/business-analytics",
     "type": "article",
     "category": "business",
+    "level": "master",
     "tags": ["analytics", "data", "decision making"]
   },
   {
@@ -69,6 +77,7 @@
     "link": "https://www.coursera.org/learn/human-resources",
     "type": "video",
     "category": "management",
+    "level": "undergraduate",
     "tags": ["HR", "management", "workforce"]
   },
   {
@@ -77,6 +86,7 @@
     "link": "https://www.coursera.org/learn/corporate-finance-essentials",
     "type": "article",
     "category": "business",
+    "level": "master",
     "tags": ["finance", "corporate", "valuation"]
   },
   {
@@ -85,6 +95,7 @@
     "link": "https://online.hbs.edu/courses/leadership-principles/",
     "type": "video",
     "category": "management",
+    "level": "postgraduate",
     "tags": ["leadership", "communication", "influence"]
   },
   {
@@ -93,6 +104,7 @@
     "link": "https://www.pmi.org/learning/library/project-management-fundamentals-8320",
     "type": "article",
     "category": "management",
+    "level": "undergraduate",
     "tags": ["project management", "planning", "execution"]
   },
   {
@@ -101,6 +113,7 @@
     "link": "https://www.futurelearn.com/courses/corporate-sustainability",
     "type": "video",
     "category": "business",
+    "level": "postgraduate",
     "tags": ["sustainability", "ethics", "CSR"]
   },
   {
@@ -109,6 +122,7 @@
     "link": "https://online.hbs.edu/courses/economics-for-managers/",
     "type": "article",
     "category": "business",
+    "level": "master",
     "tags": ["economics", "microeconomics", "management"]
   },
   {
@@ -117,6 +131,7 @@
     "link": "https://www.coursera.org/learn/innovation-change-management",
     "type": "video",
     "category": "management",
+    "level": "master",
     "tags": ["innovation", "strategy", "change management"]
   }
 ]

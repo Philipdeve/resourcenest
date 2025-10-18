@@ -5,6 +5,7 @@
     "link": "https://www.coursera.org/learn/foundations-of-teaching",
     "type": "video",
     "category": "education",
+    "level": "undergraduate",
     "tags": ["education", "teaching", "philosophy", "learning"]
   },
   {
@@ -13,6 +14,7 @@
     "link": "https://www.coursera.org/learn/learning-how-to-learn",
     "type": "video",
     "category": "education",
+    "level": "undergraduate",
     "tags": ["learning", "cognitive science", "study skills"]
   },
   {
@@ -21,6 +23,7 @@
     "link": "https://www.edx.org/course/instructional-design-and-technology",
     "type": "article",
     "category": "education",
+    "level": "postgraduate",
     "tags": ["instructional design", "online education", "edtech"]
   },
   {
@@ -29,6 +32,7 @@
     "link": "https://www.futurelearn.com/courses/classroom-behaviour",
     "type": "video",
     "category": "education",
+    "level": "undergraduate",
     "tags": ["classroom", "management", "teaching methods"]
   },
   {
@@ -37,6 +41,7 @@
     "link": "https://ocw.mit.edu/courses/brain-and-cognitive-sciences/9-00sc-introduction-to-psychology-fall-2011/",
     "type": "article",
     "category": "education",
+    "level": "undergraduate",
     "tags": ["psychology", "learning theory", "cognitive science"]
   },
   {
@@ -45,6 +50,7 @@
     "link": "https://www.coursera.org/learn/assessment-for-learning",
     "type": "video",
     "category": "education",
+    "level": "postgraduate",
     "tags": ["assessment", "evaluation", "education quality"]
   },
   {
@@ -53,6 +59,7 @@
     "link": "https://www.futurelearn.com/courses/inclusive-education",
     "type": "video",
     "category": "education",
+    "level": "undergraduate",
     "tags": ["special education", "inclusion", "diversity"]
   },
   {
@@ -61,6 +68,7 @@
     "link": "https://www.edx.org/course/educational-leadership",
     "type": "article",
     "category": "education",
+    "level": "master",
     "tags": ["leadership", "policy", "education management"]
   },
   {
@@ -69,6 +77,7 @@
     "link": "https://www.coursera.org/specializations/edtech",
     "type": "video",
     "category": "education",
+    "level": "postgraduate",
     "tags": ["edtech", "digital learning", "teaching innovation"]
   },
   {
@@ -77,6 +86,7 @@
     "link": "https://www.coursera.org/learn/curriculum-design",
     "type": "article",
     "category": "education",
+    "level": "master",
     "tags": ["curriculum", "teaching design", "education planning"]
   },
   {
@@ -85,6 +95,7 @@
     "link": "https://www.futurelearn.com/courses/early-childhood-education",
     "type": "video",
     "category": "education",
+    "level": "undergraduate",
     "tags": ["child development", "preschool", "pedagogy"]
   },
   {
@@ -93,6 +104,7 @@
     "link": "https://www.edx.org/course/research-methods",
     "type": "article",
     "category": "education",
+    "level": "master",
     "tags": ["research", "quantitative", "qualitative", "education"]
   }
 ]

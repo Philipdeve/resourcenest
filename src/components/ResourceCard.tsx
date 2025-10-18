@@ -16,7 +16,8 @@ interface ResourceCardProps {
   description: string;
   link: string;
   type: string;
-  category: string;
+  category: string; // Field (e.g., "law and governance")
+  level?: string; // New field (e.g., "Undergraduate", "Masters", "Postgraduate")
   tags: string[];
   isBookmarked?: boolean;
   onBookmark?: (name: string) => void;
@@ -29,6 +30,7 @@ const ResourceCard = ({
   link,
   type,
   category,
+  level,
   tags,
   isBookmarked = false,
   onBookmark,
@@ -71,12 +73,23 @@ const ResourceCard = ({
       </CardHeader>
 
       <CardContent>
-        <Badge
-          variant="outline"
-          className="border border-[#6C63FF]/30 text-[#6C63FF] bg-[#F9F8FF]"
-        >
-          {category}
-        </Badge>
+        <div className="flex flex-wrap gap-2">
+          <Badge
+            variant="outline"
+            className="border border-[#6C63FF]/30 text-[#6C63FF] bg-[#F9F8FF]"
+          >
+            {category}
+          </Badge>
+
+          {level && (
+            <Badge
+              variant="outline"
+              className="border border-[#FF6B6B]/30 text-[#FF6B6B] bg-[#FFF8F8]"
+            >
+              {level}
+            </Badge>
+          )}
+        </div>
       </CardContent>
 
       <CardFooter className="flex gap-3 mt-2">

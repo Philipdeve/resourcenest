@@ -5,6 +5,7 @@
     "link": "https://cs50.harvard.edu/x/",
     "type": "video",
     "category": "computer science",
+    "level": "undergraduate",
     "tags": ["programming", "algorithms", "data structures", "C", "Python"]
   },
   {
@@ -13,6 +14,7 @@
     "link": "https://www.coursera.org/learn/algorithms-part1",
     "type": "video",
     "category": "computer science",
+    "level": "postgraduate",
     "tags": ["algorithms", "data structures", "problem solving"]
   },
   {
@@ -21,6 +23,7 @@
     "link": "https://www.coursera.org/learn/os-power-user",
     "type": "video",
     "category": "computer science",
+    "level": "undergraduate",
     "tags": ["linux", "systems", "operating systems"]
   },
   {
@@ -29,6 +32,7 @@
     "link": "https://www.khanacademy.org/computing/computer-science/computers-and-internet",
     "type": "article",
     "category": "computer science",
+    "level": "undergraduate",
     "tags": ["networking", "internet", "protocols", "data"]
   },
   {
@@ -37,6 +41,7 @@
     "link": "https://www.stanfordonline.org/courses/db-introduction-databases",
     "type": "video",
     "category": "computer science",
+    "level": "postgraduate",
     "tags": ["database", "SQL", "data management"]
   },
   {
@@ -45,6 +50,7 @@
     "link": "https://www.edx.org/course/artificial-intelligence-ai",
     "type": "video",
     "category": "computer science",
+    "level": "postgraduate",
     "tags": ["AI", "machine learning", "search algorithms"]
   },
   {
@@ -53,6 +59,7 @@
     "link": "https://www.coursera.org/specializations/software-engineering",
     "type": "article",
     "category": "computer science",
+    "level": "postgraduate",
     "tags": ["software", "engineering", "agile", "design"]
   },
   {
@@ -61,6 +68,7 @@
     "link": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-004-computation-structures-spring-2017/",
     "type": "video",
     "category": "computer science",
+    "level": "master",
     "tags": ["architecture", "hardware", "CPU", "memory"]
   },
   {
@@ -69,6 +77,7 @@
     "link": "https://www.coursera.org/learn/hci",
     "type": "article",
     "category": "computer science",
+    "level": "postgraduate",
     "tags": ["HCI", "UX", "UI", "interaction design"]
   },
   {
@@ -77,6 +86,7 @@
     "link": "https://www.coursera.org/specializations/intro-cyber-security",
     "type": "video",
     "category": "computer science",
+    "level": "postgraduate",
     "tags": ["security", "encryption", "cybersecurity"]
   },
   {
@@ -85,6 +95,7 @@
     "link": "https://www.datacamp.com/tracks/data-scientist-with-python",
     "type": "article",
     "category": "computer science",
+    "level": "postgraduate",
     "tags": ["data science", "python", "analytics", "statistics"]
   },
   {
@@ -93,6 +104,7 @@
     "link": "https://www.coursera.org/specializations/deep-learning",
     "type": "video",
     "category": "computer science",
+    "level": "master",
     "tags": ["deep learning", "neural networks", "AI", "machine learning"]
   },
   {
@@ -101,6 +113,7 @@
     "link": "https://www.edx.org/course/computer-graphics",
     "type": "video",
     "category": "computer science",
+    "level": "master",
     "tags": ["graphics", "rendering", "3D", "visualization"]
   },
   {
@@ -109,6 +122,7 @@
     "link": "https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-045j-automata-computability-and-complexity-spring-2011/",
     "type": "article",
     "category": "computer science",
+    "level": "master",
     "tags": ["theory", "computation", "complexity", "automata"]
   },
   {
@@ -117,6 +131,7 @@
     "link": "https://www.coursera.org/learn/parallel-distributed-computing",
     "type": "video",
     "category": "computer science",
+    "level": "master",
     "tags": ["parallel computing", "cloud", "distributed systems"]
   }
 ]

@@ -9,11 +9,46 @@ const Index = () => {
   const [searchTerm, setSearchTerm] = useState("");
   const navigate = useNavigate();
 
+  // Map search keywords to unique disciplines
+  const disciplineMap: Record<string, string> = {
+    business: "business",
+    "business & management": "business",
+    engineering: "engineering",
+    arts: "arts & humanities",
+    humanities: "arts & humanities",
+    "social sciences": "social science",
+    social: "social science",
+    medicine: "health and medicine",
+    health: "health and medicine",
+    "computer science": "computer science",
+    computer: "computer science",
+    technology: "computer science", // Example: technology → CS
+    education: "education",
+    law: "law and governance",
+    governance: "law and governance",
+  };
+
   const handleSearch = () => {
-    if (searchTerm.trim()) {
-      navigate(`/resources?search=${encodeURIComponent(searchTerm)}`);
-    } else {
+    const trimmed = searchTerm.trim().toLowerCase();
+
+    if (!trimmed) {
       navigate("/resources");
+      return;
+    }
+
+    // Check if search matches a discipline
+    const matchedDiscipline = Object.keys(disciplineMap).find((key) =>
+      trimmed.includes(key)
+    );
+
+    if (matchedDiscipline) {
+      navigate(
+        `/resources?discipline=${encodeURIComponent(
+          disciplineMap[matchedDiscipline]
+        )}`
+      );
+    } else {
+      navigate(`/resources?search=${encodeURIComponent(trimmed)}`);
     }
   };
 
@@ -29,24 +64,25 @@ const Index = () => {
             <span className="text-[#FF6B6B]">Ease</span>
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-10">
-            A supportive academic hub where students and educators across disciplines 
-            share curated university and postgraduate resources — from research papers 
+            A supportive academic hub where students and educators across disciplines
+            share curated university and postgraduate resources — from research papers
             to study notes and learning guides.
           </p>
 
-          {/* Search Functionality */}
-          <div className="flex justify-center items-center gap-2 w-full max-w-lg mx-auto mb-10">
+          {/* Search Bar */}
+          <div className="relative flex justify-center items-center w-full max-w-lg mx-auto mb-10">
+            <Search className="absolute left-4 text-gray-400 h-5 w-5" />
             <Input
               type="text"
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
               placeholder="Search by topic, degree program, or resource type..."
-              className="flex-1 border border-gray-300 focus:ring-2 focus:ring-[#FF6B6B]"
+              className="pl-10 pr-20 border border-gray-300 focus:ring-2 focus:ring-[#6C63FF] focus:border-[#6C63FF] rounded-xl"
               onKeyDown={(e) => e.key === "Enter" && handleSearch()}
             />
             <Button
               onClick={handleSearch}
-              className="bg-[#FF6B6B] hover:bg-[#FF5252] text-white flex items-center gap-2"
+              className="ml-2 bg-[#FF6B6B] hover:bg-[#FF5252] text-white rounded-xl flex items-center gap-2"
             >
               <Search size={18} /> Search
             </Button>
@@ -104,47 +140,44 @@ const Index = () => {
         </div>
       </section>
 
-     {/* ===== DISCIPLINE FILTERS ===== */}
-<section className="py-20 px-4 bg-white">
-  <div className="container mx-auto">
-    <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
-      Explore by Discipline
-    </h2>
-    <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-      {[
-        { name: "Business & Management", key: "business" },
-        { name: "Engineering", key: "engineering" },
-        { name: "Arts & Humanities", key: "arts" },
-        { name: "Social Sciences", key: "social" },
-        { name: "Medicine & Health", key: "medicine" },
-        { name: "Computer Science", key: "computer" },
-        { name: "Education", key: "education" },
-        { name: "Law & Governance", key: "law" },
-      ].map((discipline) => (
-        <Button
-          key={discipline.key}
-          variant="outline"
-          className="h-20 rounded-xl text-lg hover:bg-[#FF6B6B] hover:text-white border-gray-300"
-          asChild
-        >
-          <Link
-            to={`/resources?discipline=${encodeURIComponent(discipline.key)}`}
-          >
-            {discipline.name}
-          </Link>
-        </Button>
-      ))}
-    </div>
-  </div>
-</section>
-
+      {/* ===== DISCIPLINE FILTERS ===== */}
+      <section className="py-20 px-4 bg-white">
+        <div className="container mx-auto">
+          <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
+            Explore by Discipline
+          </h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              { name: "Business & Management", key: "business" },
+              { name: "Engineering", key: "engineering" },
+              { name: "Arts & Humanities", key: "arts & humanities" },
+              { name: "Social Sciences", key: "social science" },
+              { name: "Medicine & Health", key: "health and medicine" },
+              { name: "Computer Science", key: "computer science" },
+              { name: "Education", key: "education" },
+              { name: "Law & Governance", key: "law and governance" },
+            ].map((discipline) => (
+              <Button
+                key={discipline.key}
+                variant="outline"
+                className="h-20 rounded-xl text-lg hover:bg-[#FF6B6B] hover:text-white border-gray-300"
+                asChild
+              >
+                <Link to={`/resources?discipline=${encodeURIComponent(discipline.key)}`}>
+                  {discipline.name}
+                </Link>
+              </Button>
+            ))}
+          </div>
+        </div>
+      </section>
 
       {/* ===== COMMUNITY CALL ===== */}
       <section className="py-20 px-4 bg-gradient-to-r from-[#FF6B6B] to-[#6C63FF] text-white text-center">
         <div className="container mx-auto">
           <h2 className="text-4xl font-bold mb-4">Empower Your Learning Community</h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90">
-            From first-year students to postgraduate researchers — collaborate, share, 
+            From first-year students to postgraduate researchers — collaborate, share,
             and grow together through the exchange of knowledge.
           </p>
           <Button
@@ -166,7 +199,7 @@ const Index = () => {
   );
 };
 
-// Feature card component
+// Feature Card Component
 const FeatureCard = ({
   icon,
   title,

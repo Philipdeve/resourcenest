@@ -5,6 +5,7 @@
     "link": "https://plato.stanford.edu/contents.html",
     "type": "article",
     "category": "arts & humanities",
+    "level": "undergraduate",
     "tags": ["philosophy", "ethics", "logic"]
   },
   {
@@ -13,6 +14,7 @@
     "link": "https://www.khanacademy.org/humanities/world-history",
     "type": "video",
     "category": "arts & humanities",
+    "level": "undergraduate",
     "tags": ["history", "civilization", "culture"]
   },
   {
@@ -21,6 +23,7 @@
     "link": "https://openstax.org/books/introduction-literature/pages/1-introduction",
     "type": "article",
     "category": "arts & humanities",
+    "level": "undergraduate",
     "tags": ["literature", "analysis", "reading"]
   },
   {
@@ -29,6 +32,7 @@
     "link": "https://smarthistory.org/",
     "type": "video",
     "category": "arts & humanities",
+    "level": "postgraduate",
     "tags": ["art history", "painting", "culture"]
   },
   {
@@ -37,6 +41,7 @@
     "link": "https://www.coursera.org/learn/creative-writing",
     "type": "video",
     "category": "arts & humanities",
+    "level": "undergraduate",
     "tags": ["writing", "storytelling", "creativity"]
   },
   {
@@ -45,6 +50,7 @@
     "link": "https://www.coursera.org/learn/linguistics",
     "type": "article",
     "category": "arts & humanities",
+    "level": "postgraduate",
     "tags": ["language", "linguistics", "communication"]
   },
   {
@@ -53,6 +59,7 @@
     "link": "https://openstax.org/books/ethics/pages/1-introduction",
     "type": "article",
     "category": "arts & humanities",
+    "level": "postgraduate",
     "tags": ["ethics", "morality", "philosophy"]
   },
   {
@@ -61,6 +68,7 @@
     "link": "https://www.coursera.org/learn/design-principles",
     "type": "video",
     "category": "arts & humanities",
+    "level": "undergraduate",
     "tags": ["design", "art", "visual"]
   },
   {
@@ -69,6 +77,7 @@
     "link": "https://open.umn.edu/opentextbooks/textbooks/cultural-anthropology",
     "type": "article",
     "category": "arts & humanities",
+    "level": "master",
     "tags": ["anthropology", "culture", "society"]
   },
   {
@@ -77,6 +86,7 @@
     "link": "https://www.musictheory.net/lessons",
     "type": "article",
     "category": "arts & humanities",
+    "level": "undergraduate",
     "tags": ["music", "theory", "composition"]
   },
   {
@@ -85,6 +95,7 @@
     "link": "https://www.futurelearn.com/courses/film-education",
     "type": "video",
     "category": "arts & humanities",
+    "level": "postgraduate",
     "tags": ["film", "cinema", "visual storytelling"]
   },
   {
@@ -93,6 +104,7 @@
     "link": "https://openstax.org/books/introduction-sociology/pages/1-introduction",
     "type": "article",
     "category": "arts & humanities",
+    "level": "undergraduate",
     "tags": ["sociology", "society", "social behavior"]
   },
   {
@@ -101,6 +113,7 @@
     "link": "https://plato.stanford.edu/entries/political-theories/",
     "type": "article",
     "category": "arts & humanities",
+    "level": "master",
     "tags": ["politics", "theory", "governance"]
   },
   {
@@ -109,6 +122,7 @@
     "link": "https://www.coursera.org/learn/media-communication",
     "type": "video",
     "category": "arts & humanities",
+    "level": "postgraduate",
     "tags": ["media", "communication", "society"]
   },
   {
@@ -117,6 +131,7 @@
     "link": "https://www.moma.org/learn/moma_learning/",
     "type": "article",
     "category": "arts & humanities",
+    "level": "master",
     "tags": ["modern art", "culture", "creativity"]
   }
 ]
