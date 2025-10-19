@@ -21,7 +21,7 @@ interface ResourceCardProps {
   tags: string[];
   isBookmarked?: boolean;
   onBookmark?: (name: string) => void;
-  onShare?: (id: string) => void;
+  onShare?: (link: string) => void;
 }
 
 const ResourceCard = ({
@@ -123,7 +123,7 @@ const ResourceCard = ({
         <Button
           variant="outline"
           size="icon"
-          onClick={() => onShare?.(name)}
+          onClick={() => onShare?.(link)}
           className="rounded-full border border-gray-300 text-gray-600 hover:border-[#FF6B6B]/60 hover:text-[#FF6B6B] transition-all"
         >
           <Share2 className="h-4 w-4" />

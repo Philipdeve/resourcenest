@@ -65,7 +65,7 @@ const Index = () => {
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-10">
             A supportive academic hub where students and educators across disciplines
-            share curated university and postgraduate resources — from research papers
+            access curated university and postgraduate resources — from research papers
             to study notes and learning guides.
           </p>
 

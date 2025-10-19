@@ -141,8 +141,8 @@ export default function Resources() {
     }
   };
 
-  const handleShare = (id: string) => {
-    const url = `${window.location.origin}/resources`;
+  const handleShare = (link: string) => {
+    const url = link;
     navigator.clipboard.writeText(url);
     toast.success("Link copied to clipboard!");
   };

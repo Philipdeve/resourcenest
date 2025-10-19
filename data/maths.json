@@ -1,5 +1,114 @@
 [
   {
+    "name": "Developing Understanding in Mathematics",
+    "description": "In this unit, the theoretical basis for teaching mathematics - constructivism - is explored.",
+    "link": "https://www.oerafrica.org/system/files/2024-01/unit-2-pdf_0.pdf",
+    "type": "pdf",
+    "category": "mathematics",
+    "level": "Undergraduate",
+    "tags": [
+      "constructivism",
+      "mathematics",
+      "applied mathematics",
+      "foundations"
+    ]
+  },
+  {
+    "name": "Anchor University Journal of Science and Technology - Mathematics Papers",
+    "description": "Collection of peer-reviewed papers on mathematical topics from African scholars at Anchor University.",
+    "link": "https://www.ajol.info/index.php/aujst",
+    "type": "article",
+    "category": "mathematics",
+    "level": "Postgraduate",
+    "tags": [
+      "mathematics",
+      "statistics",
+      "pure mathematics",
+      "applied mathematics"
+    ]
+  },
+  {
+    "name": "Equity Journal of Science and Technology - Mathematics Section",
+    "description": "Open access papers on mathematical findings and inventions by African researchers.",
+    "link": "https://www.ajol.info/index.php/equijost",
+    "type": "pdf",
+    "category": "mathematics",
+    "level": "Postgraduate",
+    "tags": ["mathematics", "physics", "chemistry", "computer science"]
+  },
+  {
+    "name": "FUNAI Journal of Science and Technology - Mathematics Research",
+    "description": "Peer-reviewed articles on pure and applied mathematics from Federal University Ndufu-Alike Ikwo.",
+    "link": "https://www.ajol.info/index.php/funaijost",
+    "type": "article",
+    "category": "mathematics",
+    "level": "Postgraduate",
+    "tags": ["mathematics", "statistics", "research and development"]
+  },
+  {
+    "name": "Direct Research Journal of Engineering and Information Technology - Mathematical Algorithms",
+    "description": "Papers on computational number theory and algorithms with mathematical foundations.",
+    "link": "https://www.ajol.info/index.php/drjeit",
+    "type": "article",
+    "category": "mathematics",
+    "level": "Postgraduate",
+    "tags": ["algorithms", "graph theory", "numerical analysis", "mathematics"]
+  },
+  {
+    "name": "International Journal of Computer Engineering and Data Science - Theoretical Math",
+    "description": "Research on theoretical computer science with strong mathematical components.",
+    "link": "https://www.ajol.info/index.php/ijceds",
+    "type": "article",
+    "category": "mathematics",
+    "level": "Undergraduate",
+    "tags": ["algorithms", "theoretical computer science", "mathematics"]
+  },
+  {
+    "name": "Ezumezu: African Perspectives on Logic",
+    "description": "Studies in African logic with mathematical and computational aspects.",
+    "link": "https://www.ajol.info/index.php/ezumezu",
+    "type": "article",
+    "category": "mathematics",
+    "level": "Postgraduate",
+    "tags": ["logic", "AI ethics", "transhumanism", "mathematics"]
+  },
+  {
+    "name": "East African Journal of Biophysical and Computational Sciences - Mathematics",
+    "description": "Advancements in natural sciences including mathematics and statistics.",
+    "link": "https://www.ajol.info/index.php/eajbcs",
+    "type": "article",
+    "category": "mathematics",
+    "level": "Masters",
+    "tags": ["mathematics", "statistics", "biophysical sciences"]
+  },
+  {
+    "name": "African Journal for Industrial and Applied Mathematics",
+    "description": "Peer-reviewed papers on industrial and applied mathematics from African contexts.",
+    "link": "https://global-sci.com/journal/67/african-journal-for-industrial-and-applied-mathematics",
+    "type": "article",
+    "category": "mathematics",
+    "level": "Masters",
+    "tags": ["applied mathematics", "industrial math", "theory"]
+  },
+  {
+    "name": "Caliphate Journal of Science and Technology - Mathematics Articles",
+    "description": "Original articles on mathematics and related sciences.",
+    "link": "https://www.ajol.info/index.php/cajost",
+    "type": "article",
+    "category": "mathematics",
+    "level": "Postgraduate",
+    "tags": ["mathematics", "science", "technology"]
+  },
+  {
+    "name": "Bima Journal of Science and Technology - Math Section",
+    "description": "Submissions in mathematical fields from African scholars.",
+    "link": "https://www.ajol.info/index.php/bjst",
+    "type": "article",
+    "category": "mathematics",
+    "level": "Postgraduate",
+    "tags": ["mathematics", "science", "technology"]
+  },
+  {
     "name": "College Algebra Essentials",
     "description": "Covers equations, inequalities, functions, and graphing for first-year students.",
     "link": "https://www.khanacademy.org/math/college-algebra",

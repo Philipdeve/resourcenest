@@ -160,12 +160,12 @@ const Bookmarks = () => {
       <Navbar />
       
       <main className="container mx-auto px-4 py-8">
-        <div className="mb-8">
-          <h1 className="text-4xl font-bold mb-2 gradient-text flex items-center gap-2">
+        <div className="mb-8 " >
+          <h1 className="text-4xl font-bold  flex items-center gap-2 text-primary ">
             <BookmarkIcon className="h-8 w-8" />
             My Bookmarks
           </h1>
-          <p className="text-muted-foreground">Your saved Academic resources</p>
+          <p className="my-2 mx-10">Your saved Academic resources</p>
         </div>
 
         {loading ? (

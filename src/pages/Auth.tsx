@@ -72,10 +72,10 @@ const Auth = () => {
           <Link to="/" className="inline-flex items-center gap-2 text-3xl font-bold">
             <BookOpen className="h-8 w-8 text-[#FF6B6B]" />
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-[#FF6B6B] to-[#6C63FF]">
-              Student Hub
+              ResourceNest
             </span>
           </Link>
-          <p className="text-gray-500 mt-1">Your Gateway to Academic Resources</p>
+          <p className="text-gray-500 mt-1">Navigate Your Academic Journey with Ease</p>
         </div>
 
         {/* Auth Card */}
@@ -121,6 +121,9 @@ const Auth = () => {
                   <Button type="submit" className="w-full py-3" disabled={loading}>
                     {loading ? "Signing in..." : "Sign In"}
                   </Button>
+                  <div className="justify-end flex">
+                    <Link to={'/forget-password'} className="text-sm text-primary">Forgotten Password?</Link>
+                  </div>
                 </form>
               </TabsContent>
 

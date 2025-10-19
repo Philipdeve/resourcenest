@@ -8,6 +8,20 @@
     "level": "undergraduate",
     "tags": ["programming", "algorithms", "data structures", "C", "Python"]
   },
+      {
+        "name": "Computer Fundamentals",
+        "description": "Introductory module on basic ICT skills, including computer fundamentals and software, developed by AVU for African undergraduates.",
+        "link": "https://oer.avu.org/handle/123456789/75",
+        "type": "pdf",
+        "category": "computer science",
+        "level": "Undergraduate",
+        "tags": [
+            "ICT",
+            "computer fundamentals",
+            "software",
+            "foundations"
+        ]
+    },
   {
     "name": "Algorithms, Part I",
     "description": "Learn the essential algorithms and data structures for problem-solving and efficient computing.",

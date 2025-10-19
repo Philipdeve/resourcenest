@@ -9,6 +9,94 @@
     "tags": ["physics", "mechanics", "motion"]
   },
   {
+    "name": "Mechanics 2",
+    "description": "Advanced kinematics, dynamics, and applications, developed by African Virtual University with contributions from African scholars.",
+    "link": "https://oer.avu.org/bitstream/handle/123456789/31/Mechanics%202.pdf?sequence=1",
+    "type": "pdf",
+    "category": "physics",
+    "level": "Undergraduate",
+    "tags": ["mechanics", "kinematics", "dynamics", "foundations"]
+  },
+  {
+    "name": "Anchor University Journal of Science and Technology - Physics",
+    "description": "Papers on cryptographic and physical sciences topics.",
+    "link": "https://www.ajol.info/index.php/aujst",
+    "type": "article",
+    "category": "physics",
+    "level": "Postgraduate",
+    "tags": ["physics", "electronics", "earth sciences"]
+  },
+  {
+    "name": "General Physics",
+    "description": "Introductory module on general physics covering basic concepts like motion, forces, energy, and waves, created by AVU for African undergraduate students.",
+    "link": "https://oer.avu.org/handle/123456789/28",
+    "type": "pdf",
+    "category": "physics",
+    "level": "Undergraduate",
+    "tags": ["motion", "forces", "energy", "waves", "introductory"]
+  },
+  {
+    "name": "FUNAI Journal of Science and Technology - Physics",
+    "description": "Research in physics and geosciences.",
+    "link": "https://www.ajol.info/index.php/funaijost",
+    "type": "article",
+    "category": "physics",
+    "level": "Postgraduate",
+    "tags": ["physics", "geosciences", "environmental sciences"]
+  },
+      {
+        "name": "Ghana Journal of Science, Technology and Development - Physics",
+        "description": "Scholarly articles in physics and development.",
+        "link": "https://www.ajol.info/index.php/gjstd",
+        "type": "article",
+        "category": "physics",
+            "level": "Postgraduate",
+        "tags": [
+            "physics",
+            "science",
+            "technology"
+        ]
+    },
+      {
+        "name": "Ethiopian Journal of Science and Technology - Physics",
+        "description": "Research on basic and applied physics.",
+        "link": "https://www.ajol.info/index.php/ejst",
+        "type": "paper",
+        "category": "physics",
+            "level": "Postgraduate",
+        "tags": [
+            "physics",
+            "physical science",
+            "engineering"
+        ]
+    },
+        {
+        "name": "Abyssinia Journal of Science and Technology - Physics",
+        "description": "Original research in natural sciences including physics.",
+        "link": "https://www.ajol.info/index.php/abjst",
+        "type": "article",
+        "category": "physics",
+            "level": "Postgraduate",
+        "tags": [
+            "physics",
+            "natural sciences",
+            "engineering"
+        ]
+    },
+    {
+        "name": "Academy Journal of Science and Engineering - Physics",
+        "description": "Theoretical and experimental papers in physics.",
+        "link": "https://www.ajol.info/index.php/ajse",
+        "type": "article",
+        "category": "physics",
+            "level": "Postgraduate",
+        "tags": [
+            "physics",
+            "science",
+            "technology"
+        ]
+    },
+  {
     "name": "Chemistry Fundamentals",
     "description": "Atoms, elements, reactions, and the periodic table explained simply.",
     "link": "https://www.khanacademy.org/science/chemistry",

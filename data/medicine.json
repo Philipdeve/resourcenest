@@ -1,5 +1,72 @@
 [
   {
+    "name": "Setting Up the Harvard Kymograph",
+    "description": "Video demonstration of adjustments for recording muscle contractions using the Harvard Kymograph with stimulator for isolated tissue preparations, including drug treatment and biological activity recording.",
+    "link": "https://www.oerafrica.org/resource/set-isolated-tissue-organ-bath-experiment",
+    "type": "video",
+    "category": "health and medicine",
+    "level": "Undergraduate",
+    "tags": [
+      "physiology",
+      "muscle contraction",
+      "laboratory equipment",
+      "isolated tissue"
+    ]
+  },
+  {
+    "name": "Examination of the Pregnant Woman",
+    "description": "Notes and demonstration videos that explain how to examine a near-term, pregnant woman.",
+    "link": "https://www.oerafrica.org/resource/examination-pregnant-woman",
+    "type": "video",
+    "category": "health and medicine",
+    "level": "Undergraduate",
+    "tags": [
+      "obstetrics",
+      "pregnancy examination",
+      "fetal position",
+      "anatomy",
+      "clinical skills"
+    ]
+  },
+  {
+    "name": "Case Scenarios In Pediatric Practices",
+    "description": "Clinical case scenarios with pictures from ward rounds and consultations to aid diagnosis using visual impressions for clinical students.",
+    "link": "https://www.oercommons.org/courses/case-scenarios-in-pediatric-practices/view",
+    "type": "case study",
+    "category": "medicine",
+    "level": "Undergraduate",
+    "tags": [
+      "pediatrics",
+      "clinical diagnosis",
+      "case studies",
+      "visual teaching"
+    ]
+  },
+  {
+    "name": "Health Management I Module Guide",
+    "description": "Module on health management for public health.",
+    "link": "https://www.oerafrica.org/resource/health-management-i-module-guide",
+    "type": "article",
+    "category": "medicine",
+    "level": "Undergraduate",
+    "tags": ["health management", "public health"]
+  },
+  {
+    "name": "Health Systems Research I",
+    "description": "Introduction to health systems research designs, methods, and protocol development for quality, community-based systems.",
+    "link": "https://open.umich.edu/find/open-educational-resources/global-health/african-health-oer-network-health-systems-research-i-module-guide",
+    "type": "module",
+    "category": "medicine",
+    "level": "Undergraduate",
+    "tags": [
+      "health research",
+      "research methods",
+      "protocol development",
+      "public health systems"
+    ]
+  },
+
+  {
     "name": "Human Anatomy and Physiology",
     "description": "Comprehensive guide to the human body’s structure and function.",
     "link": "https://www.khanacademy.org/science/health-and-medicine/human-anatomy-and-physiology",
