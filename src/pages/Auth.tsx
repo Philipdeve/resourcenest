@@ -39,11 +39,14 @@ const Auth = () => {
   const handleSignUp = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
+    const redirectUrl = window.location.hostname === 'localhost'
+  ? 'http://localhost:8080/resources'
+  : 'https://resourcenestwebsite.netlify.app/resources';
     try {
       const { data, error } = await supabase.auth.signUp({
         email,
         password,
-        options: { emailRedirectTo: `${window.location.origin}/resources` },
+        options: { emailRedirectTo: `${redirectUrl}` },
       });
       if (error) throw error;
 
