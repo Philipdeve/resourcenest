@@ -43,36 +43,28 @@ export type Database = {
           },
         ]
       }
-      resources: {
+      users: {
         Row: {
-          category: string
-          created_at: string
-          description: string | null
-          id: string
-          title: string
-          type: string
+          
+          auth_user_id: string
+          name: string
+          bio: string
+          avatar_url: string
           updated_at: string
-          url: string
         }
         Insert: {
-          category: string
-          created_at?: string
-          description?: string | null
-          id?: string
-          title: string
-          type: string
-          updated_at?: string
-          url: string
+          auth_user_id: string
+          name: string
+          bio: string
+          avatar_url: string
+          updated_at: string
         }
         Update: {
-          category?: string
-          created_at?: string
-          description?: string | null
-          id?: string
-          title?: string
-          type?: string
-          updated_at?: string
-          url?: string
+          auth_user_id: string
+          name: string
+          bio: string
+          avatar_url: string
+          updated_at: string
         }
         Relationships: []
       }

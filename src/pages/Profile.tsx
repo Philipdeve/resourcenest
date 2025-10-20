@@ -7,7 +7,6 @@ import { useNavigate, Link } from "react-router-dom";
 import { toast } from "sonner";
 import Navbar from "@/components/Navbar";
 
-
 interface Resource {
   id: string;
   title: string;
@@ -45,29 +44,31 @@ export default function Profile() {
       const { data: profileData } = await (supabase as any)
         .from("users")
         .select("name, bio, avatar_url")
-        .eq("id", user.id)
+        .eq("auth_user_id", user.id)
         .single();
 
       setProfile(profileData);
+     
 
       // Count saved resources
       const { count } = await supabase
         .from("bookmarks")
-        .select("*", { count: "exact", head: true })
+        .select("*", { count: "exact"})
         .eq("user_id", user.id);
+      
 
       setResourcesCount(count || 0);
 
       // Fetch user activity logs
-      const { data: activityData, error } = await (supabase as any)
-        .from("activities")
-        .select("id, action, details, created_at")
-        .eq("user_id", user.id)
-        .order("created_at", { ascending: false })
-        .limit(5);
+      // const { data: activityData, error } = await (supabase as any)
+      //   .from("activities")
+      //   .select("id, action, details, created_at")
+      //   .eq("user_id", user.id)
+      //   .order("created_at", { ascending: false })
+      //   .limit(5);
 
-      if (error) console.error(error);
-      setActivities((activityData as Activity[]) || []);
+      // if (error) console.error(error);
+      // setActivities((activityData as Activity[]) || []);
 
       setLoading(false);
     };
@@ -83,86 +84,102 @@ export default function Profile() {
     );
 
   return (
-    <div className="container mx-auto max-w-4xl py-10 px-4">
+    <>
       <Navbar />
-      {/* Back Button */}
-      <button
-        onClick={() => navigate(-1)}
-        className="flex items-center gap-2 text-sm text-[#6C63FF] mb-6 hover:underline"
-      >
-        <ArrowLeft className="h-4 w-4" /> Back
-      </button>
+      <div className="container mx-auto max-w-4xl py-10 px-4">
+        {/* Back Button */}
+        <button
+          onClick={() => navigate(-1)}
+          className="flex items-center gap-2 text-sm text-[#6C63FF] mb-6 hover:underline"
+        >
+          <ArrowLeft className="h-4 w-4" /> Back
+        </button>
 
-      {/* Header */}
-      <div className="flex items-center gap-6 mb-10">
-        <Avatar className="h-20 w-20">
-          <AvatarImage
-            src={
-              profile?.avatar_url ||
-              `https://api.dicebear.com/7.x/initials/svg?seed=${profile?.name || user.email}`
-            }
-          />
-          <AvatarFallback>{user.email?.[0].toUpperCase()}</AvatarFallback>
-        </Avatar>
+        {/* Header */}
+        <div className="flex items-center gap-6 mb-10 ">
+          <Avatar className="h-20 w-20">
+            <AvatarImage
+              src={
+                profile?.avatar_url ||
+                `https://api.dicebear.com/7.x/initials/svg?seed=${
+                  profile?.name
+                }`
+              }
+            />
+            <AvatarFallback>{user.email?.[0].toUpperCase()}</AvatarFallback>
+          </Avatar>
 
-        <div>
-          <h1 className="text-2xl font-bold text-gray-900">
-            {profile?.name || user.email}
-          </h1>
-          <p className="text-gray-500">
-            {profile?.bio || "Welcome to your ResourceNest profile!"}
-          </p>
+          <div>
+            <h1 className="text-2xl font-bold text-gray-900">
+              {profile?.name || user.email}
+            </h1>
+            <p className="text-gray-500">
+              {profile?.bio || "Welcome to your ResourceNest profile!"}
+            </p>
+          </div>
+
+          <Link
+            to="/edit-profile"
+            className="ml-auto text-sm text-[#6C63FF] hover:underline hidden lg:flex items-center gap-1"
+          >
+            <Edit className="h-4 w-4" /> Edit Profile
+          </Link>
         </div>
-
         <Link
           to="/edit-profile"
-          className="ml-auto text-sm text-[#6C63FF] hover:underline flex items-center gap-1"
+          className="ml-auto text-sm text-[#6C63FF] hover:underline flex items-center gap-1 lg:hidden my-2"
         >
           <Edit className="h-4 w-4" /> Edit Profile
         </Link>
-      </div>
 
-      {/* Summary Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
-        <Card className="shadow-sm border border-gray-200">
-          <CardHeader className="flex flex-row items-center justify-between">
-            <CardTitle className="text-lg font-semibold text-gray-800">
-              Saved Resources
-            </CardTitle>
-            <BookOpen className="h-5 w-5 text-[#6C63FF]" />
-          </CardHeader>
-          <CardContent>
-            <p className="text-3xl font-bold text-[#6C63FF]">{resourcesCount}</p>
-            <p className="text-sm text-gray-500">Total resources saved</p>
-          </CardContent>
-        </Card>
+        {/* Summary Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+          <Card className="shadow-sm border border-gray-200">
+            <CardHeader className="flex flex-row items-center justify-between">
+              <CardTitle className="text-lg font-semibold text-gray-800">
+                Saved Resources
+              </CardTitle>
+              <BookOpen className="h-5 w-5 text-[#6C63FF]" />
+            </CardHeader>
+            <CardContent>
+              <p className="text-3xl font-bold text-[#6C63FF]">
+                {resourcesCount}
+              </p>
+              <p className="text-sm text-gray-500">Total resources saved</p>
+            </CardContent>
+          </Card>
 
-        <Card className="shadow-sm border border-gray-200">
-          <CardHeader className="flex flex-row items-center justify-between">
-            <CardTitle className="text-lg font-semibold text-gray-800">
-              Recent Activity
-            </CardTitle>
-            <Clock className="h-5 w-5 text-[#FF6B6B]" />
-          </CardHeader>
-          <CardContent>
-            {activities.length > 0 ? (
-              <ul className="space-y-2">
-                {activities.map((act) => (
-                  <li key={act.id} className="text-gray-700 text-sm">
-                    <span className="font-medium text-[#6C63FF]">{act.action}</span> —{" "}
-                    {act.details}
-                    <p className="text-gray-500 text-xs">
-                      {new Date(act.created_at).toLocaleString()}
-                    </p>
-                  </li>
-                ))}
-              </ul>
-            ) : (
-              <p className="text-gray-500 text-sm">No recent activities yet.</p>
-            )}
-          </CardContent>
-        </Card>
+          <Card className="shadow-sm border border-gray-200">
+            <CardHeader className="flex flex-row items-center justify-between">
+              <CardTitle className="text-lg font-semibold text-gray-800">
+                Recent Activity
+              </CardTitle>
+              <Clock className="h-5 w-5 text-[#FF6B6B]" />
+            </CardHeader>
+            <CardContent>
+              {activities.length > 0 ? (
+                <ul className="space-y-2">
+                  {activities.map((act) => (
+                    <li key={act.id} className="text-gray-700 text-sm">
+                      <span className="font-medium text-[#6C63FF]">
+                        {act.action}
+                      </span>{" "}
+                      — {act.details}
+                      <p className="text-gray-500 text-xs">
+                        {new Date(act.created_at).toLocaleString()}
+                      </p>
+                    </li>
+                  ))}
+                </ul>
+              ) : (
+                <p className="text-gray-500 text-sm">
+                  No recent activities yet.
+                </p>
+              )}
+            </CardContent>
+          </Card>
+        </div>
       </div>
-    </div>
+    </>
   );
 }

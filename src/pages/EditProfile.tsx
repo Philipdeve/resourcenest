@@ -27,14 +27,15 @@ export default function EditProfile() {
       const { data } = await (supabase as any)
         .from("users")
         .select("name, bio, avatar_url")
-        .eq("id", user.id)
-        .single();
+        .eq("auth_user_id", user.id)
+        .single()
 
       if (data) {
         setName(data.name || "");
         setBio(data.bio || "");
         setAvatar(data.avatar_url || "");
       }
+      
     };
 
     fetchProfile();
@@ -47,13 +48,14 @@ export default function EditProfile() {
 
     const { error } = await (supabase as any)
       .from("users")
-      .upsert({
-        id: user?.id,
+      .update({
+        auth_user_id: user?.id,
         name,
         bio,
         avatar_url: avatar,
-        updated_at: new Date(),
-      });
+        updated_at: new Date().toISOString(),
+      })
+       .eq("auth_user_id", user.id)
 
     if (error) {
       toast.error("Failed to update profile");
@@ -89,7 +91,9 @@ export default function EditProfile() {
               <img
                 src={
                   avatar ||
-                  `https://api.dicebear.com/7.x/initials/svg?seed=${name || "User"}`
+                  `https://api.dicebear.com/7.x/initials/svg?seed=${
+                    name
+                  }`
                 }
                 alt="Avatar Preview"
                 className="w-24 h-24 rounded-full border-4 border-[#6C63FF]/40 shadow-sm object-cover"
@@ -134,7 +138,8 @@ export default function EditProfile() {
                 className="rounded-xl focus:ring-2 focus:ring-[#6C63FF]"
               />
               <p className="text-xs text-gray-500 mt-1">
-                Tip: You can use a hosted image link from services like Cloudinary or Imgur.
+                Tip: You can use a hosted image link from services like
+                Cloudinary or Imgur.
               </p>
             </div>
 
