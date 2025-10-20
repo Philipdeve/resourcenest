@@ -39,12 +39,12 @@ const Auth = () => {
   const handleSignUp = async (e: React.FormEvent) => {
     e.preventDefault();
     setLoading(true);
-    
+    const redirectUrl = import.meta.env.SUPABASE_REDIRECT_URL;
     try {
       const { data, error } = await supabase.auth.signUp({
         email,
         password,
-        options: { emailRedirectTo: `${window.location.origin}/resources` },
+        options: { emailRedirectTo: `${redirectUrl}` },
       });
       if (error) throw error;
 
