@@ -146,7 +146,7 @@ const Index = () => {
           <h2 className="text-3xl font-bold text-center mb-12 text-gray-900">
             Explore by Discipline
           </h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
               { name: "Business & Management", key: "business" },
               { name: "Engineering", key: "engineering" },
@@ -160,7 +160,7 @@ const Index = () => {
               <Button
                 key={discipline.key}
                 variant="outline"
-                className="h-20 rounded-xl text-lg hover:bg-[#FF6B6B] hover:text-white border-gray-300"
+                className="min-h-[80px] h-auto p-4 rounded-xl text-sm sm:text-base hover:bg-[#FF6B6B] hover:text-white border-gray-300 flex items-center justify-center text-center leading-tight"
                 asChild
               >
                 <Link to={`/resources?discipline=${encodeURIComponent(discipline.key)}`}>

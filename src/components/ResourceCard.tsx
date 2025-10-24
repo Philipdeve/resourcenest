@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { BookmarkIcon, FileText, Share2, Video, Newspaper } from "lucide-react";
 import { useState } from "react";
+import { ResourceTrackingService } from "@/services/resourceTracking";
 
 interface ResourceCardProps {
   name: string;
@@ -41,6 +42,15 @@ const ResourceCard = ({
   const handleBookmark = () => {
     setBookmarked(!bookmarked);
     onBookmark?.(name);
+  };
+
+  const handleViewResource = () => {
+    // Track the resource click
+    ResourceTrackingService.trackResourceClick({
+      resource_name: name,
+      resource_category: category,
+      resource_type: type,
+    });
   };
 
   return (
@@ -98,7 +108,12 @@ const ResourceCard = ({
           asChild
           className="flex-1 bg-gradient-to-r from-[#6C63FF] to-[#FF6B6B] text-white font-medium rounded-full hover:opacity-90 transition-all"
         >
-          <a href={link} target="_blank" rel="noopener noreferrer">
+          <a 
+            href={link} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            onClick={handleViewResource}
+          >
             View Resource
           </a>
         </Button>

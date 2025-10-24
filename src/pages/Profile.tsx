@@ -2,28 +2,18 @@ import { useEffect, useState } from "react";
 import { supabase } from "@/integrations/supabase/client";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { BookOpen, Clock, Edit, ArrowLeft } from "lucide-react";
+import { BookOpen, Clock, Edit, ArrowLeft, Bell } from "lucide-react";
 import { useNavigate, Link } from "react-router-dom";
 import { toast } from "sonner";
 import Navbar from "@/components/Navbar";
+import ResourceAnalytics from "@/components/ResourceAnalytics";
 
-interface Resource {
-  id: string;
-  title: string;
-}
 
-interface Activity {
-  id: string;
-  action: string;
-  details: string;
-  created_at: string;
-}
 
 export default function Profile() {
   const navigate = useNavigate();
   const [user, setUser] = useState<any>(null);
   const [profile, setProfile] = useState<any>(null);
-  const [activities, setActivities] = useState<Activity[]>([]);
   const [resourcesCount, setResourcesCount] = useState<number>(0);
   const [loading, setLoading] = useState(true);
 
@@ -152,32 +142,27 @@ export default function Profile() {
           <Card className="shadow-sm border border-gray-200">
             <CardHeader className="flex flex-row items-center justify-between">
               <CardTitle className="text-lg font-semibold text-gray-800">
-                Recent Activity
+                Incoming Notifications
               </CardTitle>
-              <Clock className="h-5 w-5 text-[#FF6B6B]" />
+              <Bell className="h-5 w-5 text-[#FF6B6B]" />
             </CardHeader>
             <CardContent>
-              {activities.length > 0 ? (
-                <ul className="space-y-2">
-                  {activities.map((act) => (
-                    <li key={act.id} className="text-gray-700 text-sm">
-                      <span className="font-medium text-[#6C63FF]">
-                        {act.action}
-                      </span>{" "}
-                      — {act.details}
-                      <p className="text-gray-500 text-xs">
-                        {new Date(act.created_at).toLocaleString()}
-                      </p>
-                    </li>
-                  ))}
-                </ul>
-              ) : (
+             
+              
                 <p className="text-gray-500 text-sm">
-                  No recent activities yet.
+                  No notifications yet.
                 </p>
-              )}
+            
             </CardContent>
           </Card>
+        </div>
+
+        {/* Resource Analytics */}
+        <div className="mb-8">
+          <h2 className="text-2xl font-bold text-gray-900 mb-6">
+            Your Learning Journey
+          </h2>
+          <ResourceAnalytics />
         </div>
       </div>
     </>
