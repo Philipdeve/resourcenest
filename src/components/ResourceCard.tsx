@@ -124,7 +124,7 @@ const ResourceCard = ({
           size="icon"
           onClick={handleBookmark}
           className={`rounded-full border ${
-            bookmarked
+            isBookmarked
               ? "bg-gradient-to-r from-[#6C63FF] to-[#FF6B6B] text-white"
               : "border-gray-300 text-gray-600 hover:border-[#6C63FF]/60 hover:text-[#6C63FF]"
           } transition-all`}

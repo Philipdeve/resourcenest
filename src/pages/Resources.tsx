@@ -208,7 +208,7 @@ export default function Resources() {
               className={`rounded-full px-5 py-2 text-sm transition-all ${
                 selectedLevel === level
                   ? "bg-[#FF6B6B] hover:bg-[#e05555] text-white border-none"
-                  : "border border-gray-300 text-gray-700 hover:border-[#FF6B6B] hover:text-[#FF6B6B]"
+                  : "border border-gray-300 text-gray-700 hover:border-[#FF6B6B] hover:text-white"
               }`}
             >
               {level}

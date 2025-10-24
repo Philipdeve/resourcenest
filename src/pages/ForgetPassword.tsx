@@ -3,6 +3,7 @@ import { useNavigate, Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+
 import {
   Card,
   CardContent,
@@ -22,7 +23,6 @@ const Auth = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
 
     if (!email) {
       toast.error("Please enter your email address.");
@@ -34,7 +34,9 @@ const Auth = () => {
     });
 
     if (error) {
-      toast(error.message);
+      toast("can't reset Password. Try again in few seconds");
+      // Return null because we don't want to sign in the user yet
+      return null;
     } else {
       toast.info("Password reset link has been sent to your email.");
     }
